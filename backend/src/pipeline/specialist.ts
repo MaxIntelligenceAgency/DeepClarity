@@ -3,7 +3,7 @@ import { CLARITY_SYSTEM_TEMPLATE } from "../prompts/clarity.ts";
 import { fillTemplate } from "../prompts/template.ts";
 import { createTokenBatcher } from "../utils/token_batcher.ts";
 
-const MODEL = process.env.MODEL_SPECIALIST ?? "claude-opus-4-7";
+const MODEL = process.env.MODEL_SPECIALIST ?? "claude-opus-4-6";
 const MAX_TOKENS = 1500;
 const BATCH_MS = 16;
 

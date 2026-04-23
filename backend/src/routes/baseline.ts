@@ -4,7 +4,7 @@ import { openSSE } from "../utils/sse.ts";
 import { appendRequestLog, newRequestId } from "../utils/logger.ts";
 import { createTokenBatcher } from "../utils/token_batcher.ts";
 
-const MODEL = process.env.MODEL_SPECIALIST ?? "claude-opus-4-7";
+const MODEL = process.env.MODEL_SPECIALIST ?? "claude-opus-4-6";
 const MAX_TOKENS = 1500;
 const BATCH_MS = 16;
 
