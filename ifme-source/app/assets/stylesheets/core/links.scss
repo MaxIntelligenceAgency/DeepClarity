@@ -1,0 +1,33 @@
+@mixin staticContentFakeLink() {
+  @include standardTransition();
+
+  text-decoration: none;
+  color: $cornflower;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+@mixin staticContentLink() {
+  a {
+    @include staticContentFakeLink();
+  }
+}
+
+@mixin dashboardSectionFakeLink() {
+  text-decoration: none;
+  color: $blumine;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+@mixin dashboardSectionLink() {
+  a {
+    @include dashboardSectionFakeLink();
+  }
+}

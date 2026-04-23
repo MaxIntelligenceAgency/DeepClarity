@@ -1,0 +1,222 @@
+version: 2.1
+
+orbs:
+  qlty: qltysh/qlty-orb@0.0
+
+defaults: &defaults
+  working_directory: ~/ifmeorg/ifme
+  parallelism: 1
+  shell: /bin/bash --login
+  resource_class: large
+  environment:
+    CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
+    CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
+  docker:
+    - image: cimg/ruby:3.3.0-browsers
+      environment:
+        PGHOST: 127.0.0.1
+        PGUSER: circleci
+        NODE_ENV: test
+    - image: cimg/postgres:14.10
+      environment:
+        POSTGRES_USER: circleci
+        POSTGRES_DB: ifme_test
+        POSTGRES_PASSWORD: ""
+    - image: redis
+      environment:
+        REDIS_HOST: redis
+        REDIS_PORT: 6379
+  steps:
+    - checkout
+
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      # Restore dependency caches - Updated to v3 to bypass stale Ruby 3.3 environments
+      - restore_cache:
+          keys:
+            - v3-bundle-{{ arch }}-{{ checksum "Gemfile.lock" }}
+            - v3-bundle-{{ arch }}-
+            - v3-bundle-
+      - restore_cache:
+          keys:
+            - v3-yarn-{{ arch }}-{{ checksum "yarn.lock" }}-{{ checksum "client/yarn.lock" }}
+            - v3-yarn-{{ arch }}-{{ checksum "yarn.lock" }}
+            - v3-yarn-{{ arch }}-
+      - run:
+          name: Setup dependencies
+          command: |
+            gem install bundler
+            bundle config set --local path 'vendor/bundle'
+            bundle install --jobs=4 --retry=3
+
+            # Install and setup Node
+            wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            nvm install v20.17.0
+            nvm alias default 20.17.0
+            echo 'export NVM_DIR="$HOME/.nvm"' >> $BASH_ENV
+            echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
+
+            # Install yarn dependencies
+            yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - run:
+          name: Setup Chrome
+          command: |
+            wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+            sudo dpkg -i ./google-chrome*.deb
+            sudo apt-get install
+            sudo apt --fix-broken install -y
+      # Save dependency caches
+      - save_cache:
+          key: v3-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - save_cache:
+          key: v3-yarn-{{ checksum "client/yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+            - client/node_modules
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://localhost:5432 -timeout 1m
+
+      - run:
+          name: Setup test environment
+          command: |
+            RAILS_ENV=test RACK_ENV=test bundle exec rake db:create db:schema:load --trace
+            RAILS_ENV=test bundle exec rake react_on_rails:locale
+            RAILS_ENV=test bundle exec rails assets:precompile
+      - run:
+          name: Run React Jest Tests
+          command: |
+            set -e
+            cd client
+            yarn lint:flow &
+            yarn lint:eslint &
+            wait
+            yarn test:circleci
+      - persist_to_workspace:
+          root: .
+          paths:
+            - client/coverage/
+      - run:
+          name: Run Rails RSpec Tests
+          command: |
+            set -e
+            TESTFILES=$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
+            bundle exec rspec \
+              --format progress \
+              --format RspecJunitFormatter \
+              -o $CIRCLE_TEST_REPORTS/rspec.xml \
+              -- ${TESTFILES}
+      - persist_to_workspace:
+          root: .
+          paths:
+            - coverage/
+      # Store timing data for future test splits
+      - store_test_results:
+          path: $CIRCLE_TEST_REPORTS
+      - run:
+          name: Run bundle-audit check
+          command: bundle exec bundle-audit check --update || true
+      - store_test_results:
+          path: /tmp/circleci-test-results
+      - store_artifacts:
+          path: /tmp/circleci-artifacts
+      - store_artifacts:
+          path: /tmp/circleci-test-results
+
+  upload-coverage:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/ifmeorg/ifme
+      - qlty/coverage_publish:
+          files: client/coverage/coverage-summary.json, coverage/.resultset.json
+
+  deploy:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Deploy Main to Heroku
+          command: |
+            GIT_CURL_VERBOSE=1 GIT_TRACE=1 git push https://heroku:$HEROKU_API_KEY@git.heroku.com/ifme.git main
+
+  deploy-storybook:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/ifmeorg/ifme/tmp
+      - restore_cache:
+          keys:
+            - v3-dep-{{ .Branch }}-
+            - v3-dep-main-
+            - v3-dep-
+      - run:
+          name: Update to Node v20.17.0
+          command: |
+            curl -sSL "https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-x64.tar.xz" | sudo tar --strip-components=2 -xJ -C /usr/local/bin/ node-v20.17.0-linux-x64/bin/node
+            curl https://www.npmjs.com/install.sh | sudo bash
+      - run: gem install bundler
+      - run: bundle config set path 'vendor/bundle'
+      - run: bundle install --jobs=4 --retry=3
+      - run: yarn install --cache-folder ~/.cache/yarn
+      - run:
+          name: Deploy Storybook
+          command: |
+            cd client
+            yarn deploy:storybook
+      - save_cache:
+          key: v3-dep-{{ .Branch }}-{{ epoch }}
+          paths:
+            - ~/.cache/yarn
+            - ./node_modules
+            - ./vendor/bundle
+
+workflows:
+  version: 2
+  build-test:
+    jobs:
+      - build
+      - upload-coverage:
+          requires:
+            - build
+
+  build-test-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+/
+      - upload-coverage:
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+/
+      - deploy:
+          requires:
+            - upload-coverage
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+/
+      - deploy-storybook:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+/

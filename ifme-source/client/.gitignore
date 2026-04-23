@@ -1,0 +1,9 @@
+*.iml
+flow-typed/
+translations.js
+default.js
+/coverage
+/storybook-static
+/.out*/*
+/.public*/*
+/app/libs/i18n/*.json

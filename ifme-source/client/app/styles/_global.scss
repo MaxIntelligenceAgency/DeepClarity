@@ -1,0 +1,23 @@
+@import "~styles/_legacy.scss";
+@import "~styles/_global_font.scss";
+
+body,
+html {
+  @include setFontSize($size-20);
+
+  margin: 0 auto;
+  font-family: $font-family;
+  font-weight: $font-weight-400;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+@include dashboardSectionStyles();

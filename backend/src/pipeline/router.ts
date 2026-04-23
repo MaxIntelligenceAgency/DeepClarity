@@ -7,7 +7,7 @@ import type { SafeguardResult } from "./safeguard.ts";
 const MODEL = process.env.MODEL_ROUTER ?? "claude-haiku-4-5-20251001";
 
 export const RouterResultSchema = z.object({
-  selected_skills: z.array(z.enum(["mhgap", "29k"])),
+  selected_skills: z.array(z.enum(["mhgap", "29k", "ifme"])),
   reasoning: z.string(),
   user_role: z.string(),
 });
@@ -15,7 +15,7 @@ export const RouterResultSchema = z.object({
 export type RouterResult = z.infer<typeof RouterResultSchema>;
 
 const DEFAULT: RouterResult = {
-  selected_skills: ["mhgap", "29k"],
+  selected_skills: ["mhgap", "29k", "ifme"],
   reasoning: "defaulting to full composition",
   user_role: "other",
 };

@@ -1,0 +1,111 @@
+.stats {
+  @include setFontSize($size-22);
+  @include setMargin($size-0, $size-0, $size-40, $size-0);
+
+  font-weight: $font-weight-400;
+
+  .mostFocus {
+    width: 100%;
+    font-size: $size-0;
+
+    @media screen and (min-width: $medium + 1) {
+      display: flex;
+    }
+  }
+
+  .someFocus {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    color: $key-lime;
+    font-size: $size-0;
+
+    &:nth-child(1) {
+      background-color: $mulberry;
+    }
+
+    &:nth-child(2) {
+      background-color: $mulberry-80;
+    }
+
+    &:nth-child(3) {
+      background-color: $mulberry-70;
+    }
+
+    &Text {
+      @include setFontSize($size-22);
+      @include setPadding($size-20, $size-20, $size-20, $size-20);
+
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+
+      a,
+      .link_style {
+        text-decoration: none;
+        color: $key-lime;
+
+        &:hover,
+        &:focus {
+          opacity: 0.5;
+        }
+      }
+
+      &Name {
+        word-break: break-word;
+      }
+    }
+  }
+
+  .tooltip {
+    width: 100%;
+
+    &Element {
+      width: inherit;
+      word-break: break-word;
+    }
+  }
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: $medium) {
+    flex-direction: column;
+  }
+
+  &Submit {
+    margin-left: $size-8;
+
+    @media screen and (max-width: $medium) {
+      margin-left: $size-0;
+    }
+  }
+
+  div:first-of-type {
+    flex-grow: 1;
+
+    @media screen and (max-width: $medium) {
+      margin: $size-0 $size-0 $size-4 $size-0;
+      width: 100%;
+    }
+  }
+
+  &InputMultiSelect {
+    display: flex;
+    flex-direction: row;
+    margin-left: $size-8;
+    width: 25%;
+
+    @media screen and (max-width: $medium) {
+      flex-direction: column;
+      margin-left: $size-0;
+      width: 100%;
+    }
+  }
+}

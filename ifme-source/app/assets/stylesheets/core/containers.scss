@@ -1,0 +1,19 @@
+.center {
+  text-align: center;
+
+  &Margin {
+    margin: 0 auto;
+  }
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.imageContainer {
+  img {
+    max-width: 100%;
+  }
+}
