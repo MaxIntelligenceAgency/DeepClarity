@@ -154,7 +154,8 @@
       margin-bottom: 4px;
     }
     .msg-row.user      .msg-role { color: var(--accent); text-align: right; }
-    .msg-row.assistant .msg-role { color: var(--text-muted); }
+    .msg-row.assistant .msg-role { color: var(--text-muted); opacity: 1; }
+    .msg-row.crisis    .msg-role { color: #f87171; }
 
     .msg-text {
       font-size: 0.88rem;
@@ -586,6 +587,10 @@
   const clarityHistory = [];
   const rawHistory     = [];
 
+  function isTimeoutError(err) {
+    return err instanceof DOMException && (err.name === "TimeoutError" || err.name === "AbortError");
+  }
+
   async function streamClarity(message) {
     const thinking = mkThinking(clarityEl);
     let bubble = null;
@@ -597,6 +602,7 @@
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message }),
+        signal: AbortSignal.timeout(60_000),
       });
 
       await readSSE(res, {
@@ -618,9 +624,10 @@
           mkAssistantRow(clarityEl).querySelector(".msg-text").textContent = `⚠ ${data.message ?? "Server error"}`;
         },
       });
-    } catch {
+    } catch (err) {
       thinking.remove();
-      mkAssistantRow(clarityEl).querySelector(".msg-text").textContent = "⚠ Error reaching server.";
+      const msg = isTimeoutError(err) ? "⚠ Request timed out (60 s)." : "⚠ Error reaching server.";
+      mkAssistantRow(clarityEl).querySelector(".msg-text").textContent = msg;
     }
 
     if (!isCrisis && accumulated) {
@@ -639,6 +646,7 @@
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message }),
+        signal: AbortSignal.timeout(60_000),
       });
 
       await readSSE(res, {
@@ -650,12 +658,17 @@
         },
         error(data) {
           thinking.remove();
-          mkAssistantRow(rawEl).querySelector(".msg-text").textContent = `⚠ ${data.message ?? "Server error"}`;
+          // Always create the row so "Assistant (No Safeguards)" label stays visible.
+          const row = mkAssistantRow(rawEl);
+          row.querySelector(".msg-text").textContent = `⚠ Model error (No Safeguards): ${data.message ?? "unknown"}`;
         },
       });
-    } catch {
+    } catch (err) {
       thinking.remove();
-      mkAssistantRow(rawEl).querySelector(".msg-text").textContent = "⚠ Error reaching server.";
+      const msg = isTimeoutError(err)
+        ? "⚠ Model timed out (No Safeguards) — raw model took > 60 s."
+        : "⚠ Error reaching server (No Safeguards).";
+      mkAssistantRow(rawEl).querySelector(".msg-text").textContent = msg;
     }
 
     if (accumulated) {
