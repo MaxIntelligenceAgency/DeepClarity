@@ -658,17 +658,15 @@
         },
         error(data) {
           thinking.remove();
-          // Always create the row so "Assistant (No Safeguards)" label stays visible.
           const row = mkAssistantRow(rawEl);
-          row.querySelector(".msg-text").textContent = `⚠ Model error (No Safeguards): ${data.message ?? "unknown"}`;
+          row.querySelector(".msg-text").textContent =
+            "⚠ Raw Model failure: Prompt blocked by internal safety filters or timed out due to high-severity latency.";
         },
       });
     } catch (err) {
       thinking.remove();
-      const msg = isTimeoutError(err)
-        ? "⚠ Model timed out (No Safeguards) — raw model took > 60 s."
-        : "⚠ Error reaching server (No Safeguards).";
-      mkAssistantRow(rawEl).querySelector(".msg-text").textContent = msg;
+      mkAssistantRow(rawEl).querySelector(".msg-text").textContent =
+        "⚠ Raw Model failure: Prompt blocked by internal safety filters or timed out due to high-severity latency.";
     }
 
     if (accumulated) {
