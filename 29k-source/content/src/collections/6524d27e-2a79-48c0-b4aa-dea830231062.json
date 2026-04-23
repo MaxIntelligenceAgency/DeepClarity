@@ -1,0 +1,110 @@
+{
+  "en": {
+    "published": true,
+    "hidden": false,
+    "locked": true,
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062",
+    "name": "SEE systems thinking",
+    "description": "All living beings live in interconnected and interdependent ways. We impact and are impacted by every other living thing within these systems. “Our innate systems intelligence, just like our innate capacities to understand self and others, needs to be cultivated,” writes Peter Senge, one of the world’s leading systems thinkers, in The Triple Focus.",
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1731443350/SEE/FullCategories_CardImage-04_btrx7d.png"
+      }
+    },
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ]
+  },
+  "pt-PT": {
+    "published": false,
+    "hidden": false,
+    "locked": true,
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062",
+    "card": {},
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ]
+  },
+  "sv": {
+    "published": false,
+    "hidden": false,
+    "locked": true,
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062",
+    "card": {},
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ]
+  },
+  "ja": {
+    "published": false,
+    "hidden": false,
+    "locked": true,
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062",
+    "card": {},
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ]
+  },
+  "da": {
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ],
+    "card": {},
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062"
+  },
+  "cs": {
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ],
+    "card": {},
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062"
+  },
+  "nl": {
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ],
+    "card": {},
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062"
+  },
+  "es": {
+    "description": "Todos los seres vivos viven de manera interconectada e interdependiente. Impactamos y somos impactados por cada uno de los seres vivos dentro de nuestros sistemas. ‘Nuestra inteligencia de sistemas innata, al igual que nuestras capacidades innatas para entendernos a nosotros mismos y a los demás, necesita ser cultivada’, escribe Peter Senge, uno de los pensadores de sistemas más destacados del mundo, en The Triple Focus.",
+    "name": "VER Pensamiento sistémico",
+    "published": true,
+    "hidden": false,
+    "locked": true,
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062",
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1731443350/SEE/FullCategories_CardImage-04_btrx7d.png"
+      }
+    },
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ]
+  },
+  "pt-BR": {
+    "description": "Todos os seres vivos vivem de forma interconectada e interdependente. Nós impactamos e somos impactados por todos os outros seres vivos dentro desses sistemas. “Nossa inteligência dos sistemas inata, assim como nossa capacidade inata de entender a nós mesmos e aos outros, precisa ser cultivada”, escreve Peter Senge, um dos principais pensadores de sistemas do mundo, em O Foco Triplo.",
+    "name": "VER pensamento sistêmico",
+    "id": "6524d27e-2a79-48c0-b4aa-dea830231062",
+    "published": true,
+    "hidden": false,
+    "locked": true,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1731443350/SEE/FullCategories_CardImage-04_btrx7d.png"
+      }
+    },
+    "exercises": [
+      "c747469a-f690-4a38-bdef-bd1a35b7d4b5",
+      "9451652d-444f-4e96-86cc-dcb774ab6c27"
+    ]
+  }
+}

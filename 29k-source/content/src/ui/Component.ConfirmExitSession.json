@@ -1,0 +1,46 @@
+{
+  "en": {
+    "header": "Leave session",
+    "text": "Are you sure you want to leave session?",
+    "buttons": {
+      "cancel": "No, stay in session",
+      "confirm": "Yes, leave"
+    }
+  },
+  "pt-PT": {
+    "header": "Sair da sessão",
+    "text": "Tens a certeza que queres sair da sessão?",
+    "buttons": {
+      "cancel": "Não, permanecer na sessão",
+      "confirm": "Sim, sair"
+    }
+  },
+  "sv": {
+    "header": "Lämna session",
+    "text": "Är du säker på att du vill lämna sessionen?",
+    "buttons": {
+      "cancel": "Lämna inte",
+      "confirm": "Lämna"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "buttons": {
+      "cancel": "No, quedarme en la sesión",
+      "confirm": "Sí, salir de la sesión"
+    },
+    "header": "Salir de la sesión",
+    "text": "¿Estás seguro/a de que quieres salir de la sesión?"
+  },
+  "pt-BR": {
+    "buttons": {
+      "cancel": "Não, permanecer na sessão",
+      "confirm": "Sim, sair"
+    },
+    "header": "Sair da sessão",
+    "text": "Tem certeza de que deseja sair da sessão?"
+  }
+}

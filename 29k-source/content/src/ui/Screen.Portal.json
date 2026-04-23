@@ -1,0 +1,80 @@
+{
+  "en": {
+    "participants": "We are",
+    "startSession": "Start session",
+    "sessionStarted": "Session is on",
+    "skipPortal": "Skip portal",
+    "counterLabel": {
+      "startsIn": "Starts in",
+      "starts": "Starts",
+      "shortly": "Shortly",
+      "started": "Now"
+    },
+    "leavePortal": "Leave"
+  },
+  "pt-PT": {
+    "participants": "Somos",
+    "startSession": "Iniciar sessão",
+    "sessionStarted": "A sessão está ativa",
+    "skipPortal": "Ignorar",
+    "counterLabel": {
+      "startsIn": "Começa em",
+      "starts": "Começa",
+      "shortly": "Brevemente",
+      "started": "Agora"
+    },
+    "leavePortal": "Sair"
+  },
+  "sv": {
+    "participants": "Vi är",
+    "startSession": "Starta sessionen",
+    "sessionStarted": "Sessionen startar",
+    "skipPortal": "Hoppa över portalen",
+    "counterLabel": {
+      "startsIn": "Startar om ",
+      "starts": "Startar",
+      "shortly": "Strax",
+      "started": "Nu"
+    },
+    "leavePortal": "Lämna"
+  },
+  "ja": {},
+  "da": {
+    "leavePortal": "Forlad",
+    "startSession": "Start session"
+  },
+  "cs": {
+    "leavePortal": "Odejít",
+    "startSession": "Začít sezení"
+  },
+  "nl": {
+    "leavePortal": "Verlaten",
+    "startSession": "Sessie starten"
+  },
+  "es": {
+    "counterLabel": {
+      "shortly": "Pronto",
+      "started": "Ahora",
+      "starts": "Empieza",
+      "startsIn": "Empieza en"
+    },
+    "leavePortal": "Salir",
+    "participants": "Somos",
+    "sessionStarted": "La sesión está en curso",
+    "skipPortal": "Omitir portal",
+    "startSession": "Empezar sesión"
+  },
+  "pt-BR": {
+    "counterLabel": {
+      "shortly": "Em breve",
+      "started": "Agora",
+      "starts": "Começa",
+      "startsIn": "Começa em"
+    },
+    "leavePortal": "Sair",
+    "participants": "Nós somos",
+    "sessionStarted": "Sessão ativa",
+    "skipPortal": "Pular portal",
+    "startSession": "Iniciar sessão"
+  }
+}

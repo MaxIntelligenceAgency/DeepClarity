@@ -1,0 +1,47 @@
+{
+  "en": {
+    "join": "Join",
+    "coCreatorsHeading": "Co-created with",
+    "howItWorks": "How it works",
+    "journeyButton": "Interested",
+    "feedbackHeading": "Reviews",
+    "moreLikeThis": "More like this"
+  },
+  "pt-PT": {
+    "join": "Participar",
+    "coCreatorsHeading": "Co-criada com",
+    "howItWorks": "Como funciona",
+    "journeyButton": "Interessada/o",
+    "feedbackHeading": "Comentários",
+    "moreLikeThis": "Semelhantes"
+  },
+  "sv": {
+    "join": "Anslut",
+    "journeyButton": "Intresserad",
+    "deleteButton": "Ta bort session",
+    "coCreatorsHeading": "Skapad med",
+    "howItWorks": "Så funkar det",
+    "feedbackHeading": "Recensioner",
+    "moreLikeThis": "Mer som den här"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "coCreatorsHeading": "Cocreado con",
+    "feedbackHeading": "Reseñas",
+    "howItWorks": "Cómo funciona",
+    "join": "Unirme",
+    "journeyButton": "Interesado/a",
+    "moreLikeThis": "Más como esta sesión"
+  },
+  "pt-BR": {
+    "coCreatorsHeading": "Co-criado com",
+    "feedbackHeading": "Avaliações",
+    "howItWorks": "Como funciona",
+    "join": "Participar",
+    "journeyButton": "Interessado(a)",
+    "moreLikeThis": "Mais como este"
+  }
+}

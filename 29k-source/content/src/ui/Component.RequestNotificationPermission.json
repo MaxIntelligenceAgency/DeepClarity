@@ -1,0 +1,46 @@
+{
+  "en": {
+    "title": "You have denied permission.",
+    "message": "Open settings to give us permission to send you notifications. This will restart the Aware app.",
+    "actions": {
+      "cancel": "Cancel",
+      "confirm": "Open Settings"
+    }
+  },
+  "pt-PT": {
+    "title": "Não deste permissão.",
+    "message": "Abre as configurações para nos dares permissão para enviar notificações. A app Aware será reiniciada.",
+    "actions": {
+      "cancel": "Cancelar",
+      "confirm": "Abrir configurações"
+    }
+  },
+  "sv": {
+    "title": "Du har inte gett tillåtelse.",
+    "message": "Öppna inställningar för att ge Aware tillåtelse att skicka notiser. Appen startas om när inställningar ändras. ",
+    "actions": {
+      "cancel": "Avbryt",
+      "confirm": "Öppna inställningar"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "actions": {
+      "cancel": "Cancelar",
+      "confirm": "Abrir configuración"
+    },
+    "message": "Abre la configuración para darnos permiso para enviarte notificaciones. Esto reiniciará la aplicación.",
+    "title": "No tienes permiso."
+  },
+  "pt-BR": {
+    "actions": {
+      "cancel": "Cancelar",
+      "confirm": "Abrir configurações"
+    },
+    "message": "Abra as configurações para nos dar permissão de enviar notificações para você. Isso irá reiniciar o aplicativo Aware.",
+    "title": "Você negou a permissão."
+  }
+}

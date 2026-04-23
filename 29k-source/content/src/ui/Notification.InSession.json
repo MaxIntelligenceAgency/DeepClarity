@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "In a live session",
+    "subtitle": "You're in a session with {{host}}. Tap to open it."
+  },
+  "pt-PT": {
+    "title": "Numa sessão ao vivo",
+    "subtitle": "Estás numa sessão com {{host}}. Clica para abrir."
+  },
+  "sv": {
+    "title": "I en pågående session",
+    "subtitle": "Du är i en session med {{host}}. Tryck för att öppna den."
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "subtitle": "Estás en una sesión con {{host}}. Toca para abrirla.",
+    "title": "En una sesión en directo"
+  },
+  "pt-BR": {
+    "subtitle": "Você está em uma sessão com {{host}}. Toque para abrir.",
+    "title": "Em uma sessão ao vivo"
+  }
+}

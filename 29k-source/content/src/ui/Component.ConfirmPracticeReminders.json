@@ -1,0 +1,51 @@
+{
+  "en": {
+    "title": "Make it a habit",
+    "message": "Do you want to set a practice reminder helping you to keep it up?",
+    "actions": {
+      "dismiss": "No",
+      "cancel": "Maybe later",
+      "confirm": "Yes"
+    }
+  },
+  "pt-PT": {
+    "title": "Faz disto um hábito",
+    "message": "Queres definir um lembrete que te ajude a tornar esta prática um hábito?",
+    "actions": {
+      "dismiss": "Não",
+      "cancel": "Talvez mais tarde",
+      "confirm": "Sim"
+    }
+  },
+  "sv": {
+    "title": "Gör det till en vana",
+    "message": "Vill du bli påmind om att träna över tid?",
+    "actions": {
+      "dismiss": "Nej",
+      "cancel": "Kanske senare",
+      "confirm": "Ja"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "actions": {
+      "cancel": "A lo mejor más tarde",
+      "confirm": "Sí",
+      "dismiss": "No"
+    },
+    "message": "¿Quieres establecer un recordatorio de práctica que te ayude a mantenerla?",
+    "title": "Crea un hábito"
+  },
+  "pt-BR": {
+    "actions": {
+      "cancel": "Talvez mais tarde",
+      "confirm": "Sim",
+      "dismiss": "Não"
+    },
+    "message": "Você deseja definir um lembrete de prática para te ajudar a manter o hábito?",
+    "title": "Transforme isso em um hábito"
+  }
+}

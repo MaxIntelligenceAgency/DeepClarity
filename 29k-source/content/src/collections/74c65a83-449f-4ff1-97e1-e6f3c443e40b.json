@@ -1,0 +1,157 @@
+{
+  "sv": {
+    "hidden": true,
+    "locked": false,
+    "name": "Våga drömma",
+    "published": true,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1716386847/Images/Part_I_-_Discover_yourself_2_gxkfwm.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "SPP",
+        "url": "spp.se",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1716792486/Images/spp_logo_1_ikrheg.png"
+      }
+    ],
+    "tags": [],
+    "link": "",
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "description": "Våra hjärnor gillar att göra sånt som känns bra i stunden. Äta chips, till exempel. Långsiktiga beteenden, som att spara eller göra något utmanande, kräver en ansträngning men skapar samtidigt  mening och tillfredsställelse. I det här programmet får du drömma om framtiden och hitta de beteenden som kan ta dig dit."
+  },
+  "en": {
+    "hidden": false,
+    "locked": false,
+    "name": "not in use",
+    "published": false,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1716386847/Images/Part_I_-_Discover_yourself_2_gxkfwm.png"
+      }
+    },
+    "coCreators": [],
+    "tags": [],
+    "link": "",
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "description": ""
+  },
+  "pt-PT": {
+    "hidden": true,
+    "locked": false,
+    "name": "Ousar sonhar",
+    "published": true,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1716386847/Images/Part_I_-_Discover_yourself_2_gxkfwm.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "SPP",
+        "url": "spp.se",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1716792486/Images/spp_logo_1_ikrheg.png"
+      }
+    ],
+    "tags": [],
+    "link": "",
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "description": "O nosso cérebro tende a preferir o que traz prazer imediato. Comer batatas fritas, por exemplo. Comportamentos de longo prazo, como poupar dinheiro ou enfrentar desafios, exigem esforço, mas é aí que encontramos significado e satisfação. Neste programa, irás sonhar com o futuro e identificar os comportamentos que te podem levar lá."
+  },
+  "es": {
+    "hidden": true,
+    "locked": false,
+    "name": "Atrévete a soñar",
+    "published": true,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1716386847/Images/Part_I_-_Discover_yourself_2_gxkfwm.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "SPP",
+        "url": "spp.se",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1716792486/Images/spp_logo_1_ikrheg.png"
+      }
+    ],
+    "tags": [],
+    "link": "",
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "description": "A nuestros cerebros les gusta hacer lo que se siente bien en el momento. Comer patatas fritas, por ejemplo. Los comportamientos a largo plazo, como ahorrar dinero o asumir desafíos, requieren esfuerzo, aunque es precisamente allí donde encontramos significado y satisfacción. En este programa, soñarás con el futuro e identificarás los comportamientos que pueden llevarte allí."
+  },
+  "cs": {
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "tags": [],
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "link": ""
+  },
+  "ja": {
+    "published": false,
+    "hidden": false,
+    "locked": false,
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "card": {},
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "tags": [],
+    "link": ""
+  },
+  "pt-BR": {
+    "hidden": true,
+    "locked": false,
+    "name": "Ouse sonhar",
+    "published": true,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1716386847/Images/Part_I_-_Discover_yourself_2_gxkfwm.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "SPP",
+        "url": "spp.se",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1716792486/Images/spp_logo_1_ikrheg.png"
+      }
+    ],
+    "tags": [],
+    "link": "",
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "description": "Nossos cérebros gostam de fazer o que é bom no momento. Comer batata frita, por exemplo. Comportamentos de longo prazo, como economizar dinheiro ou enfrentar algo desafiador, exigem esforço, mas também é onde encontramos sentido e satisfação. Neste programa, você vai sonhar com o futuro e identificar os comportamentos que podem te levar até lá."
+  },
+  "da": {
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "tags": [],
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "link": ""
+  },
+  "nl": {
+    "id": "74c65a83-449f-4ff1-97e1-e6f3c443e40b",
+    "tags": [],
+    "exercises": [
+      "023ad824-8009-4667-b148-13d0e966ffd2"
+    ],
+    "link": ""
+  }
+}

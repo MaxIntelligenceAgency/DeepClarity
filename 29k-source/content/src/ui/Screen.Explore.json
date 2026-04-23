@@ -1,0 +1,41 @@
+{
+  "en": {
+    "featuredHeading": "New releases",
+    "collectionsHeading": "Programs",
+    "sessionsHeading": "Sessions",
+    "liveSessionsHeading": "Live sessions",
+    "skillsHeading": "Skills"
+  },
+  "pt-PT": {
+    "sessionsHeading": "Sessões",
+    "collectionsHeading": "Programas",
+    "featuredHeading": "Novos lançamentos",
+    "liveSessionsHeading": "Sessões ao vivo",
+    "skillsHeading": "Competências"
+  },
+  "sv": {
+    "featuredHeading": "Nya releaser",
+    "collectionsHeading": "Program",
+    "sessionsHeading": "Sessioner",
+    "skillsHeading": "Färdigheter",
+    "liveSessionsHeading": "Live-sessioner"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "collectionsHeading": "Programas",
+    "featuredHeading": "Nuevos lanzamientos",
+    "liveSessionsHeading": "Sesiones en directo",
+    "sessionsHeading": "Sesiones",
+    "skillsHeading": "Habilidades"
+  },
+  "pt-BR": {
+    "collectionsHeading": "Programas",
+    "featuredHeading": "Novidades",
+    "liveSessionsHeading": "Sessões ao vivo",
+    "sessionsHeading": "Sessões",
+    "skillsHeading": "Habilidades"
+  }
+}

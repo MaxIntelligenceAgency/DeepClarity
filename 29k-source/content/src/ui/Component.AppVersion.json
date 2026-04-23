@@ -1,0 +1,86 @@
+{
+  "en": {
+    "checking": {
+      "status": "Checking for update"
+    },
+    "downloading": {
+      "status": "Downloading update"
+    },
+    "installed": {
+      "status": "Update available - ",
+      "action": "restart app"
+    },
+    "upToDate": {
+      "status": "Aware is up to date - ",
+      "action": "check for update"
+    }
+  },
+  "pt-PT": {
+    "checking": {
+      "status": "A verificar atualizações"
+    },
+    "downloading": {
+      "status": "A instalar atualização"
+    },
+    "installed": {
+      "status": "Atualização disponível - ",
+      "action": "reiniciar app"
+    },
+    "upToDate": {
+      "status": "Aware está atualizada - ",
+      "action": "verificar atualizações"
+    }
+  },
+  "sv": {
+    "checking": {
+      "status": "Söker efter uppdatering"
+    },
+    "downloading": {
+      "status": "Ladda ner uppdatering"
+    },
+    "installed": {
+      "status": "Uppdatering tillgänglig - ",
+      "action": "Starta om"
+    },
+    "upToDate": {
+      "status": "Aware är uppdaterad -",
+      "action": "Sök uppdatering"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "checking": {
+      "status": "Buscando actualizaciones"
+    },
+    "downloading": {
+      "status": "Bajando actualización"
+    },
+    "installed": {
+      "action": "reiniciar la aplicación",
+      "status": "Actualización disponible -"
+    },
+    "upToDate": {
+      "action": "Buscar actualizaciones",
+      "status": "La aplicación Aware está actualizada -"
+    }
+  },
+  "pt-BR": {
+    "checking": {
+      "status": "Verificando atualização"
+    },
+    "downloading": {
+      "status": "Baixando atualização"
+    },
+    "installed": {
+      "action": "reiniciar aplicativo",
+      "status": "Atualização disponível -"
+    },
+    "upToDate": {
+      "action": "verificar atualização",
+      "status": "Aware está atualizado -"
+    }
+  }
+}

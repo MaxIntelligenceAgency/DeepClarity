@@ -1,0 +1,25 @@
+# dependencies / build artifacts
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# secrets
+.env
+.env.local
+.env.*.local
+
+# logs
+logs/*.jsonl
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+
+# legacy Python backend (superseded by backend/). Delete on disk when ready.
+backend-py/

@@ -1,0 +1,83 @@
+{
+  "en": {
+    "image__image": "https://res.cloudinary.com/cupcake-29k/image/upload/v1681373965/Images/community_wb6inc.jpg",
+    "heading": "Support Aware",
+    "preamble__markdown": "We're a non-profit.\nWe're free for personal use.\nWe don’t sell any data.\nWe don’t do ads.\n\nOur only focus is to build the best app in the world, to assist as many as possible to improve mental wellbeing, thrive and contribute to a better future for all.",
+    "body__markdown": "",
+    "donateLink": "https://donorbox.org/29ksessions1",
+    "corporateLink": "mailto:partnerships@29k.org",
+    "contributeLink": "https://wiki.29k.org/community-contribution-central",
+    "actions": {
+      "donate": "Donate",
+      "corporate": "For corporate use",
+      "contribute": "All ways to contribute",
+      "contributors": "Contributors",
+      "hosts": "Session hosts",
+      "partners": "Partners"
+    }
+  },
+  "pt-PT": {
+    "actions": {
+      "donate": "Doar",
+      "corporate": "Para utilização empresarial",
+      "contribute": "Como podes contribuir",
+      "contributors": "Colaboradores",
+      "hosts": "Moderadores",
+      "partners": "Parceiros"
+    },
+    "image__image": "https://res.cloudinary.com/cupcake-29k/image/upload/v1681373965/Images/community_wb6inc.jpg",
+    "heading": "Apoia a Aware",
+    "preamble__markdown": "Somos organizações não-lucrativas.\nTotalmente gratuita para utilização pessoal.\nNão recolhemos nem vendemos nenhuns dados.\nNão temos anúncios.\n\nO nosso único objetivo é tentar construir a melhor aplicação do mundo, para ajudar o maior número possível de pessoas a melhorar o seu bem-estar mental, prosperar e a contribuir para um futuro melhor para todos.",
+    "body__markdown": "",
+    "donateLink": "https://donorbox.org/29ksessions1",
+    "corporateLink": "mailto:partnerships@29k.org",
+    "contributeLink": "https://wiki.29k.org/community-contribution-central"
+  },
+  "sv": {
+    "image__image": "https://res.cloudinary.com/cupcake-29k/image/upload/v1681373965/Images/community_wb6inc.jpg",
+    "heading": "Stöd Aware",
+    "preamble__markdown": "Vi är en icke vinst-drivande stiftelse.\\\nVi är gratis för personligt bruk.\\\nVi säljer ingen användardata.\\\nVi har inga annonser.\n\nVårt fokus är att bygga världens bästa app för att så många som möjligt ska kunna förbättra sin psykiska hälsa, trivas och bidra till en bättre framtid för oss alla.",
+    "body__markdown": "",
+    "donateLink": "https://donorbox.org/29ksessions1",
+    "corporateLink": "mailto:partnerships@29k.org",
+    "contributeLink": "https://wiki.29k.org/community-contribution-central",
+    "actions": {
+      "donate": "Donera",
+      "corporate": "För företag",
+      "contribute": "Alla sätt att bidra",
+      "contributors": "Våra supportrar",
+      "hosts": "Sessionsvärdar",
+      "partners": "Partners"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "actions": {
+      "contribute": "Todas las formas de colaborar y contribuir",
+      "contributors": "Colaboradores/as",
+      "corporate": "Para uso corporativo",
+      "donate": "Hacer donación",
+      "hosts": "Amfitriones/as de la sesión",
+      "partners": "Socios/as"
+    },
+    "corporateLink": "mailto:partnerships@29k.org",
+    "heading": "Apoya a Aware",
+    "preamble__markdown": "Somos una organización sin ánimo de lucro.\nSomos gratuitos para uso personal.\nNo vendemos ningún dato.\nNo hacemos publicidad.\n\nNuestro único objetivo es construir la mejor app del mundo para ayudar al mayor número posible de personas a mejorar su bienestar mental, prosperar y contribuir a un futuro mejor para todos/as."
+  },
+  "pt-BR": {
+    "actions": {
+      "contribute": "Todas as formas de contribuir",
+      "contributors": "Colaboradores",
+      "corporate": "Para uso corporativo",
+      "donate": "Doar",
+      "hosts": "Anfitriões de sessão",
+      "partners": "Parceiros"
+    },
+    "corporateLink": "mailto:partnerships@29k.org",
+    "heading": "Apoie o Aware",
+    "preamble__markdown": "Somos uma organização sem fins lucrativos.\r\nSomos gratuitos para uso pessoal.\r\nNão vendemos nenhum dado.\r\nNão fazemos anúncios.\r\n\r\nNosso único foco é construir o melhor aplicativo do mundo, para ajudar o maior número possível de pessoas a melhorar o bem-estar mental, prosperar e contribuir para um futuro melhor para todos."
+  }
+}

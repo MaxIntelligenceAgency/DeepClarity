@@ -1,0 +1,66 @@
+{
+  "en": {
+    "addToCalendar": "Add to cal",
+    "join": "Join",
+    "minutesAbbreviation": "min",
+    "counter": {
+      "started": "Started"
+    },
+    "counterLabel": {
+      "starts": "Starts",
+      "startsIn": "Starts in"
+    }
+  },
+  "pt-PT": {
+    "addToCalendar": "Adicionar ao calendário",
+    "counterLabel": {
+      "starts": "Inicia",
+      "startsIn": "Inicia em"
+    },
+    "join": "Entrar",
+    "minutesAbbreviation": "min",
+    "counter": {
+      "started": "Iniciada"
+    }
+  },
+  "sv": {
+    "addToCalendar": "Lägg till i kal.",
+    "join": "Anslut",
+    "minutesAbbreviation": "min",
+    "counter": {
+      "started": "Startat"
+    },
+    "counterLabel": {
+      "starts": "Startar",
+      "startsIn": "Startar om"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "addToCalendar": "Añadir al calendario",
+    "counter": {
+      "started": "Ha empezado"
+    },
+    "counterLabel": {
+      "starts": "Empieza",
+      "startsIn": "Empieza en"
+    },
+    "join": "Entra",
+    "minutesAbbreviation": "min"
+  },
+  "pt-BR": {
+    "addToCalendar": "Adicionar ao calendário",
+    "counter": {
+      "started": "Iniciada"
+    },
+    "counterLabel": {
+      "starts": "Começa",
+      "startsIn": "Começa em"
+    },
+    "join": "Participar",
+    "minutesAbbreviation": "min"
+  }
+}

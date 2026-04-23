@@ -1,0 +1,26 @@
+{
+  "en": {
+    "displayName": "What should we call you?",
+    "cta": "Save"
+  },
+  "sv": {
+    "displayName": "Vad ska vi kalla dig?",
+    "cta": "Spara"
+  },
+  "pt-PT": {
+    "displayName": "Como te devemos chamar?",
+    "cta": "Gravar"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "cta": "Guardar",
+    "displayName": "¿Cómo deberíamos llamarte?"
+  },
+  "pt-BR": {
+    "cta": "Salvar",
+    "displayName": "Como devemos te chamar?"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "en": {
+    "session-reminders": "Session Reminders",
+    "practice-reminders": "Practice Reminders"
+  },
+  "pt-PT": {
+    "session-reminders": "Lembretes de sessão",
+    "practice-reminders": "Lembretes de utilização"
+  },
+  "sv": {
+    "session-reminders": "Sessionspåminnelser",
+    "practice-reminders": "Övningspåminnelser"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "practice-reminders": "Recordatorios de práctica",
+    "session-reminders": "Recordatorios de sesiones"
+  },
+  "pt-BR": {
+    "practice-reminders": "Lembretes de prática",
+    "session-reminders": "Lembretes de sessão"
+  }
+}

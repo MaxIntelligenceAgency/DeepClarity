@@ -1,0 +1,26 @@
+{
+  "en": {
+    "private": "Session with friends",
+    "public": "Session with anyone"
+  },
+  "pt-PT": {
+    "private": "Sessão com amigos",
+    "public": "Sessão pública"
+  },
+  "sv": {
+    "private": "Session med vänner",
+    "public": "Session med alla"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "private": "Sesión con amigos/as",
+    "public": "Sesión abierta a todo el mundo"
+  },
+  "pt-BR": {
+    "private": "Sessão com amigos",
+    "public": "Sessão com qualquer pessoa"
+  }
+}

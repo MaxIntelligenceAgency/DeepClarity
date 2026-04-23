@@ -1,0 +1,36 @@
+{
+  "en": {
+    "collectionHeading": "Program",
+    "addToJourney": "My journey",
+    "sessionsHeading": "Sessions",
+    "coCreatorsHeading": "Co-created with"
+  },
+  "pt-PT": {
+    "sessionsHeading": "Sessões",
+    "collectionHeading": "Programa",
+    "addToJourney": "Adicionar à minha jornada",
+    "coCreatorsHeading": "Co-criada com"
+  },
+  "sv": {
+    "collectionHeading": "Program",
+    "sessionsHeading": "Sessioner",
+    "addToJourney": "Min plan",
+    "coCreatorsHeading": "Skapad med "
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "addToJourney": "Mi viaje",
+    "coCreatorsHeading": "Cocreado con",
+    "collectionHeading": "Programa",
+    "sessionsHeading": "Sesiones"
+  },
+  "pt-BR": {
+    "addToJourney": "Minha jornada",
+    "coCreatorsHeading": "Co-criado com",
+    "collectionHeading": "Programa",
+    "sessionsHeading": "Sessões"
+  }
+}

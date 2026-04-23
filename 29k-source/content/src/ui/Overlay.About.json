@@ -1,0 +1,48 @@
+{
+  "en": {
+    "settings": "Settings",
+    "community": "Community",
+    "about": "About Aware",
+    "actions": {
+      "developer": "Developer"
+    }
+  },
+  "pt-PT": {
+    "settings": "Configurações",
+    "community": "Comunidade",
+    "actions": {
+      "developer": "Programador"
+    },
+    "about": "Acerca da Aware"
+  },
+  "sv": {
+    "actions": {
+      "signIn": "Logga in",
+      "language": "Språk",
+      "developer": "Utvecklare"
+    },
+    "settings": "Inställningar",
+    "community": "Community",
+    "about": "Om Aware"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "about": "Sobre Aware",
+    "actions": {
+      "developer": "Desarrollador/a"
+    },
+    "community": "Comunidad",
+    "settings": "Configuración"
+  },
+  "pt-BR": {
+    "about": "Sobre o Aware",
+    "actions": {
+      "developer": "Desenvolvedor"
+    },
+    "community": "Comunidade",
+    "settings": "Configurações"
+  }
+}

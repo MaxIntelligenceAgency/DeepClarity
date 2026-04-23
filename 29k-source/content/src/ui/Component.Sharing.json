@@ -1,0 +1,31 @@
+{
+  "en": {
+    "othersHeading": "What others said:",
+    "addReflectionCta": "Add your reflection",
+    "reflectionLabel": "Your reflection:"
+  },
+  "pt-PT": {
+    "othersHeading": "O que os outros disseram:",
+    "addReflectionCta": "Adiciona a tua reflexão",
+    "reflectionLabel": "A tua reflexão:"
+  },
+  "sv": {
+    "othersHeading": "Vad andra har sagt:",
+    "addReflectionCta": "Lägg till din reflektion",
+    "reflectionLabel": "Din reflektion:"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "addReflectionCta": "Añade tu reflexión",
+    "othersHeading": "Lo que otros/as han dicho:",
+    "reflectionLabel": "Tus reflexiones:"
+  },
+  "pt-BR": {
+    "addReflectionCta": "Adicione sua reflexão",
+    "othersHeading": "O que outros disseram:",
+    "reflectionLabel": "Sua reflexão:"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "en": {
+    "title": "Developer",
+    "uiLib": "UI Library",
+    "checkUpdate": "Check for update",
+    "clearUpdate": "Clear update",
+    "showHiddenContent": "Show hidden content",
+    "showLockedContent": "Show locked content",
+    "addDevUserEvents": "Add development user events",
+    "logUserEvents": "Log user events"
+  },
+  "pt-PT": {
+    "uiLib": "Biblioteca UI",
+    "checkUpdate": "Verificar atualizações",
+    "clearUpdate": "Limpar atualização",
+    "title": "Programador",
+    "showHiddenContent": "Mostrar conteúdo escondido",
+    "addDevUserEvents": "Adicionar eventos de utilizador para desenvolvimento",
+    "showLockedContent": "Mostrar conteúdo bloqueado",
+    "logUserEvents": "Registar eventos de utilizador"
+  },
+  "sv": {
+    "title": "Utvecklare",
+    "uiLib": "UI bibliotek",
+    "checkUpdate": "Sök uppdatering",
+    "showHiddenContent": "Visa gömt innehåll",
+    "showLockedContent": "Visa låst innehåll",
+    "addDevUserEvents": "Add development user events",
+    "clearUpdate": "Clear update",
+    "logUserEvents": "Log user events"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "addDevUserEvents": "Agregar eventos de usuario para desarrollo",
+    "checkUpdate": "Buscar actualizaciones",
+    "clearUpdate": "Borrar actualización",
+    "logUserEvents": "Registrar eventos de usuario",
+    "showHiddenContent": "Mostrar contenido oculto",
+    "showLockedContent": "Mostrar contenido bloqueado",
+    "title": "Desarrollador/a",
+    "uiLib": "Biblioteca de UI"
+  },
+  "pt-BR": {
+    "addDevUserEvents": "Adicionar eventos de usuário de desenvolvimento",
+    "checkUpdate": "Verificar atualização",
+    "clearUpdate": "Limpar atualização",
+    "logUserEvents": "Registrar eventos do usuário",
+    "showHiddenContent": "Mostrar conteúdo oculto",
+    "showLockedContent": "Mostrar conteúdo bloqueado",
+    "title": "Desenvolvedor",
+    "uiLib": "Biblioteca de UI"
+  }
+}

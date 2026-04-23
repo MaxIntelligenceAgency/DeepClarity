@@ -1,0 +1,63 @@
+{
+  "en": {
+    "heading": "Sessions",
+    "add": "Session",
+    "seeAll": "See all",
+    "sections": {
+      "forYou": "For you",
+      "liveSessions": "Live sessions",
+      "hostFeedback": "Your session host feedback",
+      "community": "Aware community",
+      "sharingPosts": "What others are doing"
+    }
+  },
+  "pt-PT": {
+    "heading": "Sessões",
+    "add": "Sessão",
+    "sections": {
+      "forYou": "Para ti",
+      "liveSessions": "Sessões ao vivo",
+      "community": "Comunidade Aware",
+      "sharingPosts": "O que os outros estão a partilhar"
+    },
+    "seeAll": "Ver tudo"
+  },
+  "sv": {
+    "heading": "Sessioner",
+    "add": "Ny session",
+    "seeAll": "Se alla",
+    "sections": {
+      "forYou": "För dig",
+      "liveSessions": "Live-sessioner",
+      "hostFeedback": "Din sessionvärd-feedback",
+      "community": "Aware-communityn",
+      "sharingPosts": "Vad andra gör"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "add": "Sesión",
+    "heading": "Sesiones",
+    "sections": {
+      "community": "Comunidad de Aware",
+      "forYou": "Para ti",
+      "liveSessions": "Sesiones en directo",
+      "sharingPosts": "¿Qué están haciendo otros?"
+    },
+    "seeAll": "Ver todo"
+  },
+  "pt-BR": {
+    "add": "Sessão",
+    "heading": "Sessões",
+    "sections": {
+      "community": "Comunidade Aware",
+      "forYou": "Para você",
+      "liveSessions": "Sessões ao vivo",
+      "sharingPosts": "O que outros estão fazendo"
+    },
+    "seeAll": "Ver tudo"
+  }
+}

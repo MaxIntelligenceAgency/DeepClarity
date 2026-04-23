@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "allowJs": true, // until content is converted into ts
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "typeRoots": ["./types", "./node_modules/@types"],
+  },
+  "include": ["src", "types", "buildContent.ts", "exportToCsv.ts", "importFromCsv.ts", "fixContentIds.ts", "jest.config.js"],
+}
+

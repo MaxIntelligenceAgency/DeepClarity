@@ -1,0 +1,186 @@
+{
+  "en": {
+    "or": "or",
+    "joinByInviteCta": "Join by invite code",
+    "typeHeading": "Do session with…",
+    "profile": {
+      "text": "To create and host a session you need a user name and profile picture."
+    },
+    "orJoinUpcoming": "Or join an upcoming session",
+    "moreLikeThis": "More like this",
+    "startCta": "Start",
+    "coCreatorsHeading": "Co-created with",
+    "selectType": {
+      "live-public": {
+        "title": "Anyone"
+      },
+      "live-private": {
+        "title": "Friends"
+      },
+      "async-public": {
+        "title": "Yourself"
+      }
+    },
+    "noUpcomingSessions": "🌱 No planned sessions.",
+    "setDateTime": {
+      "title": "Choose a time",
+      "cta": "Create session",
+      "sessionType": {
+        "private": "Session with friends",
+        "public": "Session with anyone"
+      }
+    },
+    "feedbackHeading": "Reviews",
+    "selectContent": {
+      "title": "Choose exercise"
+    }
+  },
+  "pt-PT": {
+    "or": "ou",
+    "joinByInviteCta": "Junta-te por código de convite",
+    "typeHeading": "Fazer sessão com...",
+    "profile": {
+      "text": "Para poderes ser um/a moderador/a autorizada/o tens de colocar o teu nome e a tua fotografia de perfil."
+    },
+    "orJoinUpcoming": "Ou junta-te a uma sessão futura",
+    "moreLikeThis": "Semelhantes",
+    "startCta": "Iniciar",
+    "coCreatorsHeading": "Co-criado com",
+    "selectType": {
+      "live-public": {
+        "title": "Outras pessoas"
+      },
+      "live-private": {
+        "title": "Os meus amigos"
+      },
+      "async-public": {
+        "title": "Contigo"
+      }
+    },
+    "noUpcomingSessions": "🌱 Não há sessões planeadas",
+    "setDateTime": {
+      "title": "Escolhe o horário",
+      "cta": "Criar sessão",
+      "sessionType": {
+        "private": "Sessão com amigos",
+        "public": "Sessão pública"
+      }
+    },
+    "feedbackHeading": "Comentários",
+    "selectContent": {
+      "title": "Escolhe um exercício"
+    }
+  },
+  "sv": {
+    "or": "eller",
+    "joinByInviteCta": "Använd kod för att gå med",
+    "typeHeading": "Gör sessionen med...",
+    "profile": {
+      "text": "För att hålla i sessioner behöver du ett namn och en profilbild."
+    },
+    "orJoinUpcoming": "Eller gå med i en kommande session",
+    "moreLikeThis": "Mer som den här",
+    "startCta": "Starta",
+    "coCreatorsHeading": "Skapad med",
+    "selectType": {
+      "live-public": {
+        "title": "Alla"
+      },
+      "live-private": {
+        "title": "Vänner"
+      },
+      "async-public": {
+        "title": "Dig själv"
+      }
+    },
+    "noUpcomingSessions": "🌱 Inga planerade sessioner.",
+    "setDateTime": {
+      "title": "Välj tid",
+      "cta": "Skapa session",
+      "sessionType": {
+        "private": "Session med vänner",
+        "public": "Session med alla"
+      }
+    },
+    "feedbackHeading": "Recensioner",
+    "selectContent": {
+      "title": "Välj övning"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "coCreatorsHeading": "Cocreado con",
+    "feedbackHeading": "Reseñas",
+    "joinByInviteCta": "Unirme con un código de invitación",
+    "moreLikeThis": "Más como esta sesión",
+    "noUpcomingSessions": "🌱 No hay sesiones planificadas.",
+    "or": "o",
+    "orJoinUpcoming": "O únete a una sesión futura",
+    "profile": {
+      "text": "Para crear y organizar una sesión necesitas un nombre de usuario y una foto de perfil."
+    },
+    "selectContent": {
+      "title": "Elige un ejercicio"
+    },
+    "selectType": {
+      "async-public": {
+        "title": "Tú"
+      },
+      "live-private": {
+        "title": "Amigos/as"
+      },
+      "live-public": {
+        "title": "Cualquier persona"
+      }
+    },
+    "setDateTime": {
+      "cta": "Crear sesión",
+      "sessionType": {
+        "private": "Sesión con amigos/as",
+        "public": "Sesión abierta a todo el mundo"
+      },
+      "title": "Elige una hora"
+    },
+    "startCta": "Empieza",
+    "typeHeading": "Hacer esta sesión con..."
+  },
+  "pt-BR": {
+    "coCreatorsHeading": "Co-criado com",
+    "feedbackHeading": "Avaliações",
+    "joinByInviteCta": "Entrar com código de convite",
+    "moreLikeThis": "Mais como este",
+    "noUpcomingSessions": "🌱 Nenhuma sessão planejada.",
+    "or": "ou",
+    "orJoinUpcoming": "Ou participe de uma próxima sessão",
+    "profile": {
+      "text": "Para criar e hospedar uma sessão, você precisa de um nome de usuário e uma foto de perfil."
+    },
+    "selectContent": {
+      "title": "Escolher exercício"
+    },
+    "selectType": {
+      "async-public": {
+        "title": "Você mesmo(a)"
+      },
+      "live-private": {
+        "title": "Amigos"
+      },
+      "live-public": {
+        "title": "Qualquer pessoa"
+      }
+    },
+    "setDateTime": {
+      "cta": "Criar sessão",
+      "sessionType": {
+        "private": "Sessão com amigos",
+        "public": "Sessão com qualquer pessoa"
+      },
+      "title": "Escolha um horário"
+    },
+    "startCta": "Iniciar",
+    "typeHeading": "Fazer sessão com…"
+  }
+}

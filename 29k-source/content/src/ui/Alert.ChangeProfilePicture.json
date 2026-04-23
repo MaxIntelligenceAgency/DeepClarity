@@ -1,0 +1,67 @@
+{
+  "en": {
+    "removeButtonTitle": "Remove",
+    "alertCameraSettings": "Please open your system settings, and give Aware access to your camera.",
+    "alertCameraWhy": "Aware needs to use your camera to take your profile picture.",
+    "chooseFromLibraryButtonTitle": "Choose from Library",
+    "cancelButtonTitle": "Cancel",
+    "alertCameraTitle": "Camera permission required",
+    "title": "Edit profile picture",
+    "takePhotoButtonTitle": "Take photo",
+    "ok": "OK"
+  },
+  "pt-PT": {
+    "removeButtonTitle": "Remover",
+    "alertCameraSettings": "Por favor, vai às configurações do sistema e dá acesso à Aware para utilizar a tua câmara.",
+    "alertCameraWhy": "A Aware precisa de utilizar a tua câmara para tirar a foto de perfil.",
+    "chooseFromLibraryButtonTitle": "Selecionar da biblioteca",
+    "cancelButtonTitle": "Cancelar",
+    "alertCameraTitle": "Necessária permissão de acesso à câmara",
+    "title": "Alterar imagem de perfil",
+    "takePhotoButtonTitle": "Tirar uma foto",
+    "ok": "OK"
+  },
+  "sv": {
+    "removeButtonTitle": "Radera",
+    "alertCameraSettings": "Öppna din telefons inställningar för att ge Aware åtkomst till din kamera.",
+    "alertCameraWhy": "Aware behöver åtkomst till kameran för att ta din profilbild.",
+    "chooseFromLibraryButtonTitle": "Välj från bibliotek",
+    "cancelButtonTitle": "Avbryt",
+    "alertCameraTitle": "Åtkomst till kameran",
+    "title": "Redigera profilbild",
+    "takePhotoButtonTitle": "Ta en bild",
+    "ok": "Okej"
+  },
+  "ja": {
+    "cancelButtonTitle": "キャンセル",
+    "chooseFromLibraryButtonTitle": "ライブラリから選ぶ",
+    "ok": "OK",
+    "removeButtonTitle": "削除",
+    "takePhotoButtonTitle": "撮影"
+  },
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "alertCameraSettings": "Por favor, abre la configuración de tu sistema y da acceso a la cámara para Aware.",
+    "alertCameraTitle": "Se requiere permiso para la cámara",
+    "alertCameraWhy": "Aware necesita usar tu cámara para hacer tu foto de perfil.",
+    "cancelButtonTitle": "Cancelar",
+    "chooseFromLibraryButtonTitle": "Elegir de la biblioteca",
+    "ok": "OK",
+    "removeButtonTitle": "Eliminar",
+    "takePhotoButtonTitle": "Hacer foto",
+    "title": "Editar foto de perfil"
+  },
+  "pt-BR": {
+    "alertCameraSettings": "Por favor, abra as configurações do sistema e conceda ao Aware acesso à sua câmera.",
+    "alertCameraTitle": "Permissão de câmera necessária",
+    "alertCameraWhy": "O Aware precisa usar sua câmera para tirar sua foto de perfil.",
+    "cancelButtonTitle": "Cancelar",
+    "chooseFromLibraryButtonTitle": "Escolher da Biblioteca",
+    "ok": "OK",
+    "removeButtonTitle": "Remover",
+    "takePhotoButtonTitle": "Tirar foto",
+    "title": "Editar foto de perfil"
+  }
+}

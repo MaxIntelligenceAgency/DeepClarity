@@ -1,0 +1,56 @@
+{
+  "en": {
+    "title": "Join by invite code",
+    "create": {
+      "or": "or",
+      "cta": "Add new session"
+    },
+    "errors": {
+      "sessionNotFound": "Incorrect code, try again"
+    }
+  },
+  "pt-PT": {
+    "title": "Junta-te por código de convite",
+    "create": {
+      "or": "ou",
+      "cta": "Adiciona uma sessão"
+    },
+    "errors": {
+      "sessionNotFound": "Código de convite inválido"
+    }
+  },
+  "sv": {
+    "title": "Använd kod för att ansluta",
+    "create": {
+      "or": "eller",
+      "cta": "Skapa ny session"
+    },
+    "errors": {
+      "sessionNotFound": "Ogiltig kod, försök igen"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "create": {
+      "cta": "Añadir nueva sesión",
+      "or": "o"
+    },
+    "errors": {
+      "sessionNotFound": "Código incorrecto, pruébalo de nuevo"
+    },
+    "title": "Unirme con un código de invitación"
+  },
+  "pt-BR": {
+    "create": {
+      "cta": "Adicionar nova sessão",
+      "or": "ou"
+    },
+    "errors": {
+      "sessionNotFound": "Código incorreto, tente novamente"
+    },
+    "title": "Entrar com código de convite"
+  }
+}

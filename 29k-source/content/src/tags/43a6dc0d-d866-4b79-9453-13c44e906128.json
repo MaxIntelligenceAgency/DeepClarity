@@ -1,0 +1,53 @@
+{
+  "en": {
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "name": "Gratitude",
+    "sortOrder": 1,
+    "published": true
+  },
+  "pt-PT": {
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "sortOrder": 1,
+    "name": "Gratidão",
+    "published": true
+  },
+  "sv": {
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "sortOrder": 1,
+    "name": "Tacksamhet",
+    "published": true
+  },
+  "ja": {
+    "name": "感謝",
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "sortOrder": 1,
+    "published": true
+  },
+  "da": {
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "name": "Taknemmelighed",
+    "published": true
+  },
+  "cs": {
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "name": "Vděčnost\t",
+    "published": true
+  },
+  "nl": {
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "name": "Dankbaarheid\t",
+    "published": true
+  },
+  "es": {
+    "name": "Gratitud",
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "sortOrder": 1,
+    "published": true
+  },
+  "pt-BR": {
+    "name": "Gratidão",
+    "id": "43a6dc0d-d866-4b79-9453-13c44e906128",
+    "sortOrder": 1,
+    "published": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "en": {
+    "placeholder": "Please type your name",
+    "join_button": "Join",
+    "cameraOff": "Camera is off",
+    "onboarding": {
+      "title": "Let's get ready for this session",
+      "about": "This session is a live video call. You can listen in, or share your experience with the group.",
+      "headset": "Use a headset and find a comfortable, calm space.",
+      "permissions": "Make sure to allow access to your camera and microphone.",
+      "button": "Got it"
+    },
+    "errorTitle": "Could not join session.",
+    "errors": {
+      "validateSession/not-found": "Could not find session.",
+      "validateSession/user-not-found": "User not found for session."
+    }
+  },
+  "pt-PT": {
+    "placeholder": "Por favor escreve o teu nome",
+    "join_button": "Participar",
+    "cameraOff": "A câmara está desligada",
+    "errorTitle": "Não consigo juntar-me à sessão.",
+    "errors": {
+      "validateSession/not-found": "Não consigo encontrar a sessão.",
+      "validateSession/user-not-found": "Utilizador não faz parte da sessão."
+    },
+    "onboarding": {
+      "title": "Prepara-te para esta sessão",
+      "about": "Esta sessão é uma chamada de vídeo ao vivo. Podes ouvir apenas, ou partilhar a tua esperiência com o grupo.",
+      "headset": "Usa uns auriculares e encontra um local calmo e sossegado.",
+      "permissions": "Confirma que permites o acesso à tua câmara e microfone.",
+      "button": "Percebi"
+    }
+  },
+  "sv": {
+    "placeholder": "Skriv ditt namn",
+    "join_button": "Anslut",
+    "cameraOff": "Kameran är av",
+    "onboarding": {
+      "title": "Låt oss göra oss redo för denna session",
+      "about": "Den här sessionen är ett livevideosamtal. Du kan lyssna-in eller dela din upplevelse med gruppen.",
+      "headset": "Använd ett headset och hitta ett bekvämt, lugnt utrymme.",
+      "permissions": "Se till att tillåta åtkomst till din kamera och mikrofon.",
+      "button": "Jag förstår"
+    },
+    "errorTitle": "Det gick inte att gå med i sessionen.",
+    "errors": {
+      "validateSession/not-found": "Kunde inte hitta sessionen.",
+      "validateSession/user-not-found": "Användaren hittades inte för sessionen."
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "cameraOff": "La cámara está apagada",
+    "errorTitle": "No se pudo unir a la sesión.",
+    "errors": {
+      "validateSession/not-found": "No se pudo encontrar la sesión.",
+      "validateSession/user-not-found": "Usuario no encontrado para la sesión."
+    },
+    "join_button": "Unirme",
+    "onboarding": {
+      "about": "Esta sesión es una videollamada en directo. Puedes escuchar o compartir tu experiencia con el grupo.",
+      "button": "Entendido",
+      "headset": "Usa unos auriculares y encuentra un lugar cómodo y tranquilo.",
+      "permissions": "Asegúrate de permitir el acceso a tu cámara y micrófono.",
+      "title": "Prerápate para esta sesión"
+    },
+    "placeholder": "Por favor, escribe tu nombre"
+  },
+  "pt-BR": {
+    "cameraOff": "Câmera desligada",
+    "errorTitle": "Não foi possível entrar na sessão.",
+    "errors": {
+      "validateSession/not-found": "Não foi possível encontrar a sessão.",
+      "validateSession/user-not-found": "Usuário não encontrado para a sessão."
+    },
+    "join_button": "Participar",
+    "onboarding": {
+      "about": "Esta sessão é uma chamada de vídeo ao vivo. Você pode apenas ouvir ou compartilhar sua experiência com o grupo.",
+      "button": "Entendi",
+      "headset": "Use fones de ouvido e encontre um espaço confortável e tranquilo.",
+      "permissions": "Certifique-se de permitir o acesso à sua câmera e microfone.",
+      "title": "Vamos nos preparar para esta sessão"
+    },
+    "placeholder": "Por favor, digite seu nome"
+  }
+}

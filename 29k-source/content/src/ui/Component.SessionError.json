@@ -1,0 +1,31 @@
+{
+  "en": {
+    "title": "Session Error",
+    "message": "Please rejoin the session.",
+    "rejoinButton": "Rejoin"
+  },
+  "pt-PT": {
+    "title": "Erro na sessão",
+    "message": "Por favor volta a juntar-te à sessão.",
+    "rejoinButton": "Voltar"
+  },
+  "sv": {
+    "title": "Fel i sessionen",
+    "message": "Försök att gå med i sessionen igen.",
+    "rejoinButton": "Gå med igen"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "message": "Por favor, vuelve a entrar a la sesión.",
+    "rejoinButton": "Vuelve a entrar",
+    "title": "Error de sesión"
+  },
+  "pt-BR": {
+    "message": "Por favor, entre novamente na sessão.",
+    "rejoinButton": "Entrar novamente",
+    "title": "Erro na sessão"
+  }
+}

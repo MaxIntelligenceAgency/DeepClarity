@@ -1,0 +1,35 @@
+{
+  "en": {
+    "home": "Today",
+    "explore": "Explore",
+    "journey": "My Journey"
+  },
+  "pt-PT": {
+    "home": "Hoje",
+    "journey": "Jornada",
+    "explore": "Explora"
+  },
+  "sv": {
+    "home": "Idag",
+    "explore": "Utforska",
+    "journey": "Min plan"
+  },
+  "ja": {
+    "explore": "探す",
+    "home": "ホーム",
+    "journey": "ジャーニー"
+  },
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "explore": "Explorar",
+    "home": "Hoy",
+    "journey": "Mi viaje"
+  },
+  "pt-BR": {
+    "explore": "Explorar",
+    "home": "Hoje",
+    "journey": "Minha Jornada"
+  }
+}

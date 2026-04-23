@@ -1,0 +1,31 @@
+{
+  "en": {
+    "date": "Date",
+    "time": "Time",
+    "done": "Done"
+  },
+  "pt-PT": {
+    "date": "Data",
+    "time": "Hora",
+    "done": "Pronto"
+  },
+  "sv": {
+    "date": "Dag",
+    "time": "Tid",
+    "done": "Klar"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "date": "Día",
+    "done": "Hecho",
+    "time": "Hora"
+  },
+  "pt-BR": {
+    "date": "Data",
+    "done": "Concluído",
+    "time": "Hora"
+  }
+}

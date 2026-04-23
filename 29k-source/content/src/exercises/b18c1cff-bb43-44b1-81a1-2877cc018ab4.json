@@ -1,0 +1,898 @@
+{
+  "en": {
+    "liveDuration": 30,
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Welcome. I am X and today we will work for around 30 minutes on grounding ourselves right here and now.\n\nWe’ll be doing a short introduction, then a meditation exercise, reflect and then finally share our experience with each other"
+          },
+          {
+            "text": "Let’s start with a mini check-in. What are you grateful for right now? Please answer in two-three words. X, would you like to start?\n\n> Let everyone in the session, including yourself, check in one by one.\n\nThank you all for checking in. Let’s get started."
+          }
+        ],
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087603/Video/intro_breathing_anchor_jlh9pp.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "type": "content",
+        "hostNotes": [
+          {
+            "text": "Sometimes life just goes on and on, with our minds set in the future or dwelling on past experiences. Being in the here and now can help us gain perspective, be more open to what life has to offer, and enjoy what’s right in front of our noses."
+          },
+          {
+            "text": "The meditation exercise we’ll be doing now, let’s us practice present-moment-awareness and taking an observing stance. Let’s start.\n\n> Press play to start the meditation."
+          }
+        ],
+        "content": {
+          "video": {
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1674665235/Audio/meditation-breathing-anchor_mbrlw8.mp3"
+          },
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1701766917/Audio/Breathing-anchor_xgqgho.mp3",
+            "durationTimer": true,
+            "subtitles": "https://res.cloudinary.com/cupcake-29k/raw/upload/q_auto,t_global/v1689599833/SRT%20(captions)%20files/Breathing-anchor_wc2hfy.srt"
+          }
+        }
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Now we’ll take 1 minute to reflect on our own.\n\nWhat was it like for you today, to take a step back and observe? Letting things come and go, with focus on your breathing."
+          },
+          {
+            "text": "You can take notes on a piece of paper or just mental notes in your head. And there is no right or wrong here, our answers are our own. 1 minute starting now.\n\n> Press play to start the timer.\n\nThat’s 1 minute and it’s time to move on."
+          }
+        ],
+        "content": {
+          "heading": "What was it like to just observe and breathe?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676642915/Lottie/default_1min_black_rosi2l.json",
+            "durationTimer": true,
+            "duration": 60
+          }
+        }
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Now we are getting into the sharing part. We have three rules for sharing:\n\n1. **What is said in here, stays in here.**\n2. **All you need to do is listen.** There is no fixing, helping or advice-giving needed. We are just showing up and exploring what ourselves and others are going through."
+          },
+          {
+            "text": "3. **Everything on the inside is okay.** Anger, love, hatred, sadness. Whatever shows up. No wrongs, no rights. It is what it is.\n\nThere will be a timer set for 2 minutes as an indicator. If you don’t want to share you can always say ‘pass’."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone (or as many as you got time for) share one by one. Press play to start the timer. Re-start for each new sharing.\n\nThank you so much everyone."
+          }
+        ],
+        "content": {
+          "heading": "What was it like to just observe and breathe?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676639253/Lottie/default_2min_black_o6egey.json",
+            "durationTimer": true,
+            "duration": 120
+          }
+        },
+        "id": "sharing"
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Well done. if you’re up for it, you can continue what we started here today with a mission to bring this into your everyday life. For the coming three days, take a couple of minutes each day and ground yourself in the present moment with your breathing."
+          },
+          {
+            "text": "It may be a way to build your own resources and resilience.\n\nBefore we leave this space let’s do a mini check-out. \n\nWhat will you bring from this for the rest of your day? Please answer in two-three words."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone in the session check out one by one.\n\nThank you all for checking out and for joining this session today.\n\n> Finish session to send everyone off to the exit experience."
+          }
+        ],
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087586/Video/outro_breathing_anchor_lnhnjw.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "type": "instruction",
+        "content": {
+          "heading": "Well done",
+          "text": "If you’re up for it, you can continue with this mission:\n\nFor the coming three days, take a couple of minutes each day and ground yourself in the present moment with your breathing.",
+          "image": {
+            "source": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+          }
+        }
+      }
+    ],
+    "theme": {
+      "textColor": "#2E2E2E",
+      "backgroundColor": "#f0c7d1"
+    },
+    "hidden": false,
+    "name": "Breathing anchor",
+    "live": true,
+    "published": true,
+    "asyncDuration": 7,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "Ints Ivanovskis, art works",
+        "url": "https://www.linkedin.com/in/ints-ivanovskis-46ab0311a/",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1665413436/Contributors/Ints%20Ivanovskis.jpg"
+      }
+    ],
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Start the session when you're ready to go"
+        }
+      ],
+      "videoLoop": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973899/Video/portal1_breathing_anchor_iv6ljo.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png",
+        "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1678973982/Audio/portal_audio_breathing_anchor_ul2agi.mp3",
+        "p5JsScript": {
+          "lang": "javascript"
+        }
+      },
+      "videoEnd": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973897/Video/portal2_breathing_anchor_yzwgnb.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png"
+      }
+    },
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "link": "https://aware.29k.org/breathing-anchor",
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "async": true,
+    "description": "Guided meditation for grounding ourselves in the present moment with our breathing. Present moment awareness can help us reduce rumination and stress as well as improve decision-making."
+  },
+  "pt-PT": {
+    "liveDuration": 30,
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Olá, o meu nome é X e hoje vamos trabalhar cerca de 30 min em ancorarmo-nos no aqui e agora.\n\nVamos fazer uma pequena apresentação, seguida de uma meditação, reflexão e por fim vamos partilhar a nossa experiência uns com os outros."
+          },
+          {
+            "text": "Vamos começar com um mini check-in. Do que é que estás grata/o agora? Podes responder em duas ou três palavras. Quem gostaria de começar?\n\n> Permite que todos na sessão, inclusive tu, façam check-in individual.\n\nObrigada/o a todos pelo check-in. Vamos começar."
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "hostNotes": [
+          {
+            "text": "Às vezes passamos a vida a pensar num futuro improvável ou a vasculhar as experiências do passado. Estarmos presentes aqui e agora pode ajudar-nos a ganhar perspetiva, sermos mais abertos ao que a vida nos tem para oferecer e desfrutarmos do que está mesmo em frente do nosso nariz."
+          },
+          {
+            "text": "Este exercício de meditação que vamos fazer agora, permite-nos praticar a atenção plena no momento presente e assumirmos uma postura de observação. Vamos começar.\n\n> Carrega no play para iniciar a meditação."
+          }
+        ],
+        "content": {
+          "video": {
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1674665235/Audio/meditation-breathing-anchor_mbrlw8.mp3"
+          },
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1679065398/FJN/Meditations/A_ANCORA_DA_RESPIRACAO_-_07_16_ic8tnb_m7tjbt.mp3",
+            "durationTimer": true
+          }
+        }
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Vamos reservar 1 minuto para refletir individualmente.\n\nComo te sentiste ao dar um passo atrás e observar? Deixar as coisas irem e virem com o foco na respiração."
+          },
+          {
+            "text": "Se quiseres, podes tomar notas num papel ou apenas notas mentais. E lembra-te que não há certos nem errados aqui. As tuas respostas são as tuas respostas. 1 minuto a partir de agora.\n\n> Carrega no play para iniciar o cronómetro.\n\nOk, passou um minuto. Vamos continuar."
+          }
+        ],
+        "content": {
+          "heading": "Como te sentiste apenas a observar e respirar?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676642915/Lottie/default_1min_black_rosi2l.json",
+            "durationTimer": true,
+            "duration": 60
+          }
+        }
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Agora vamos entrar na parte da partilha. E temos três regras para isso:\n\n1. **O que é dito aqui, fica aqui.**\n2. **Só precisas de ouvir**. Neste espaço não há necessidade de corrigir, ajudar ou dar conselhos. Estamos apenas a presenciar e a explorar o que nós e os outros estão a atravessar."
+          },
+          {
+            "text": "3. **Tudo no nosso interior é bem-vindo.** Raiva, amor, ódio, tristeza. O que quer que apareça. Não há certos nem errados. É o que é.\n\nTeremos um temporizador de 2 minutos como referência. Se não quiseres partilhar podes dizer “passo”."
+          },
+          {
+            "text": "Quem gostaria de começar?\n\n> Deixa todos (tantos quantos possível dentro do tempo estipulado) partilharem individualmente. Reinicia o cronómetro para cada nova partilha.\n\nMuito obrigada/o a todos."
+          }
+        ],
+        "content": {
+          "heading": "Como te sentiste apenas a observar e respirar?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676639253/Lottie/default_2min_black_o6egey.json",
+            "durationTimer": true,
+            "duration": 120
+          }
+        },
+        "id": "sharing"
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Muito bem. Deixamos-te o desafio de levares para o teu dia-a-dia o que começamos aqui hoje. Nos próximos três dias, dedica alguns minutos do teu dia para te ancorares no presente com a tua respiração."
+          },
+          {
+            "text": "Pode ser uma forma para construíres os teus próprios recursos e resiliência.\n\nAntes de sairmos deste espaço vamos fazer um mini check-out.\n\nO que vais levar daqui contigo para o resto do teu dia? Responde por favor em duas ou três palavras."
+          },
+          {
+            "text": "Quem gostaria de começar?\n\n> Deixa todas as pessoas fazerem o check-out individualmente.\n\nObrigada/o a todos pelo check-out e por terem participado nesta sessão.\n\n> Termina a sessão enviando toda a gente para a experiência de saída."
+          }
+        ]
+      },
+      {
+        "type": "instruction",
+        "content": {
+          "image": {
+            "source": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+          },
+          "heading": "Parabéns",
+          "text": "Gostaríamos muito que continuasses esta missão:\n\nDurante os próximos três dias, reserva uns minutos todos os dias para te focares totalmente no momento presente através da tua respiração."
+        }
+      }
+    ],
+    "theme": {
+      "textColor": "#2E2E2E",
+      "backgroundColor": "#f0c7d1"
+    },
+    "hidden": false,
+    "name": "A respiração como âncora",
+    "live": true,
+    "published": true,
+    "asyncDuration": 7,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "Ints Ivanovskis, art works",
+        "url": "https://www.linkedin.com/in/ints-ivanovskis-46ab0311a/",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1665413436/Contributors/Ints%20Ivanovskis.jpg"
+      },
+      {
+        "name": "Cristina Alves, voz em Português",
+        "url": "https://www.instagram.com/meditar.com.cristina/profilecard/?igsh=cTg5dDNjZ2Y5aTU0",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1728375093/FJN/People/Cristina_Alves_zt1btx.png"
+      }
+    ],
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Começa a sessão quando estiveres pronta/o"
+        }
+      ],
+      "videoLoop": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973899/Video/portal1_breathing_anchor_iv6ljo.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png",
+        "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1678973982/Audio/portal_audio_breathing_anchor_ul2agi.mp3",
+        "p5JsScript": {
+          "lang": "javascript"
+        }
+      },
+      "videoEnd": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973897/Video/portal2_breathing_anchor_yzwgnb.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png"
+      }
+    },
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "link": "https://aware.29k.org/breathing-anchor",
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "async": true,
+    "description": "Uma meditação guiada para nos ancorarmos no momento presente através da nossa respiração. A consciência do momento presente pode ajudar-nos a reduzir a ruminação e o stress assim como melhorar a nossa capacidade de decisão."
+  },
+  "sv": {
+    "liveDuration": 30,
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Välkommen. Jag heter X och vi kommer att jobba tillsammans i ungefär 30 minuter med att vara här och nu.\n\nVi kommer att lyssna på en ljudövning tillsammans, reflektera en stund för oss själva och sedan finns det möjlighet att dela sina erfarenheter."
+          },
+          {
+            "text": "Vi börjar med en mini-check-in. Hur känner du dig just nu? Svara gärna med två-tre ord. Y, skulle du vilja börja?\n\n> Låt alla deltagare, även du själv, checka in en och en.\n\nTack för att ni checkade in. Då kör vi igång."
+          }
+        ],
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087603/Video/intro_breathing_anchor_jlh9pp.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "type": "content",
+        "hostNotes": [
+          {
+            "text": "Ibland är det som att livet pågår, medan vi är upptagna med att tänka på framtiden, eller älta saker som redan har hänt. Att vara här och nu kan hjälpa oss få perspektiv, vara mer öppna för det livet erbjuder, och njuta av enkla saker som vi kanske inte uppmärksammar i vardagen."
+          },
+          {
+            "text": "I den här meditationen övar vi på medveten närvaro och att betrakta våra upplevelser med lite distans. Då kör vi igång. \n\n> Tryck på play för att starta ljudfilen."
+          }
+        ],
+        "content": {
+          "video": {
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1674665235/Audio/meditation-breathing-anchor_mbrlw8.mp3"
+          },
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1693376589/Audio/Andningsankaret_c5oiik.mp3",
+            "durationTimer": true,
+            "subtitles": "https://res.cloudinary.com/cupcake-29k/raw/upload/q_auto,t_global/v1693376621/SRT%20(captions)%20files/Andningsankaret_ytrjuh.srt"
+          }
+        }
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Nästa steg är att tyst reflektera i en minut.\n\nHur upplevde du att ta ett steg tillbaka och bara observera? Att låta saker komma och gå, med fokus på andningen?"
+          },
+          {
+            "text": "Om du vill kan du skriva ner dina funderingar på ett papper, eller bara tänka fritt. Det finns inga svar som är rätt eller fel här. Vad som än dyker upp är okej.\n\n> Tryck på play för att starta timern.\n\nDå har det gått en minut och det är dags att gå vidare."
+          }
+        ],
+        "content": {
+          "heading": "Hur upplevde du att bara andas och observera?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676642915/Lottie/default_1min_black_rosi2l.json",
+            "durationTimer": true,
+            "duration": 60
+          }
+        }
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Det här steget handlar om att dela med sig av sin upplevelse och lyssna på andras. Vi har tre regler:\n\n1. **Det som sägs här, stannar här.**\n2. **Allt som behövs är att vi lyssnar på varandra.** Inget fixande, ingen rådgivning eller annan hjälp behövs. Vi är bara här för att utforska våra egna och andras upplevelser."
+          },
+          {
+            "text": "3. **Allt som händer på insidan är okej.** Ilska, kärlek, smärta, glädje. Vad som än dyker upp, det finns inget rätt eller fel. Det bara är som det är.\n\nDet finns en timer på två minuter att hålla sig efter på ett ungefär. Om du inte vill dela med dig är det bara att säga 'pass'."
+          },
+          {
+            "text": "Vem vill börja?\n\n> Låt alla, eller så många som det finns tid för, dela en efter en. Tryck på play för att starta timern. Starta om för varje person.\n\nTack så mycket för att ni lyssnar och delar med er."
+          }
+        ],
+        "content": {
+          "heading": "Hur upplevde du att bara andas och observera?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676639253/Lottie/default_2min_black_o6egey.json",
+            "durationTimer": true,
+            "duration": 120
+          }
+        },
+        "id": "sharing"
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Fint. Om du vill fortsätta träna så kan du ta några minuter varje dag de närmaste tre dagarna, och bli närvarande i nuet med hjälp av din andning. Det kan vara ett sätt att stärka motståndskraft mot påfrestningar i livet."
+          },
+          {
+            "text": "Innan vi avslutar så gör vi en mini-utcheckning.\n\nVad tar du med dig härifrån som du kan ha glädje av resten av den här dagen? Svara med två-tre ord."
+          },
+          {
+            "text": "Vem vill börja?\n\n> Låt alla checka ut en efter en.\n\nTack så mycket för era utcheckningar, och för att ni deltog i den här sessionen.\n\n> Avsluta sessionen för att skicka deltagarna till exit-upplevelsen."
+          }
+        ],
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087586/Video/outro_breathing_anchor_lnhnjw.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "type": "instruction",
+        "content": {
+          "heading": "",
+          "text": "Fint. \n\nOm du vill fortsätta träna så kan du ta några minuter varje dag de närmaste tre dagarna, och bli närvarande i nuet med hjälp av din andning. Det kan vara ett sätt att stärka motståndskraft mot påfrestningar i livet.",
+          "image": {
+            "source": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+          }
+        }
+      }
+    ],
+    "theme": {
+      "textColor": "#2E2E2E",
+      "backgroundColor": "#f0c7d1"
+    },
+    "hidden": false,
+    "name": "Andningsankaret",
+    "live": true,
+    "published": true,
+    "asyncDuration": 7,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+      }
+    },
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Starta sessionen när du är redo att köra igång"
+        }
+      ],
+      "videoLoop": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973899/Video/portal1_breathing_anchor_iv6ljo.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png",
+        "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1678973982/Audio/portal_audio_breathing_anchor_ul2agi.mp3"
+      },
+      "videoEnd": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973897/Video/portal2_breathing_anchor_yzwgnb.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png"
+      }
+    },
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "link": "https://aware.29k.org/breathing-anchor",
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "async": true,
+    "description": "I den här meditationen utforskar vi våra känslor och upplevelser just här, just nu. Att landa i nuet med hjälp av andningen kan minska stress och ältande, och göra oss mer tillfreds med tillvaron."
+  },
+  "ja": {
+    "liveDuration": 30,
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Welcome. I am X and today we will work for around 30 minutes on xx\n\nWe’ll be doing xx ex. meditation followed by time for reflection and sharing with each other."
+          },
+          {
+            "text": "Let’s start with a mini check-in. How are you feeling right now? Please answer in two-three words. X, would you like to start?\n\n> Let everyone in the session, including yourself, check in one by one.\n\nThank you all for checking in. Let’s get started."
+          }
+        ]
+      },
+      {
+        "type": "content"
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Now we’ll take 1 minute to reflect on our own.\n\nxxMain question\n\nxxFurther explanations of main question if needed"
+          },
+          {
+            "text": "You can take notes on a piece of paper or just mental notes in your head. And there is no right or wrong here, our answers are our own. 1 minute starting now.\n\n> Press play to start the timer.\n\nThat’s 1 minute and it’s time to move on."
+          }
+        ]
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Now we are getting into the sharing part. We have three rules for sharing:\n\n1. **What is said in here, stays in here.**\n2. **All you need to do is listen.** There is no fixing, helping or advice-giving needed. We are just showing up and exploring what ourselves and others are going through."
+          },
+          {
+            "text": "3. **Everything on the inside is okay.** Anger, love, hatred, sadness. Whatever shows up. No wrongs, no rights. It is what it is.\n\nThere will be a timer set for 2 minutes as an indicator. If you don’t want to share you can always say ‘pass’."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone (or as many as you got time for) share one by one. Press play to start the timer. Re-start for each new sharing.\n\nThank you so much everyone."
+          }
+        ]
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Well done. if you’re up for it, you can continue what we started here today with a mission to bring this into your everyday life.\n\nxx mission description"
+          },
+          {
+            "text": "Before we leave this space let’s do a mini check-out. \n\nHow are you feeling right now? Has anything shifted? Please answer in two-three words."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone in the session check out one by one.\n\nThank you all for checking out and for joining this session today.\n\n> Finish session to send everyone off to the exit experience."
+          }
+        ]
+      }
+    ],
+    "theme": {
+      "textColor": "#2AE2D7"
+    },
+    "hidden": false,
+    "published": false,
+    "asyncDuration": 7,
+    "card": {},
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Start the session when you're ready to go"
+        }
+      ]
+    },
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "link": "https://aware.29k.org/breathing-anchor",
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4"
+  },
+  "da": {
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "asyncDuration": 7,
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "card": {}
+  },
+  "cs": {
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "asyncDuration": 7,
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "card": {}
+  },
+  "nl": {
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "asyncDuration": 7,
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "card": {}
+  },
+  "es": {
+    "description": "Esta es una meditación guiada para arraigarnos en el momento presente a través de nuestra respiración. La conciencia del momento presente puede ayudarnos a reducir los pensamientos recurrentes, el ruido mental y el estrés, así como a mejorar la toma de decisiones.",
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Inicia la sesión cuando estés listo/a para comenzar"
+        }
+      ],
+      "videoLoop": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973899/Video/portal1_breathing_anchor_iv6ljo.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png",
+        "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1678973982/Audio/portal_audio_breathing_anchor_ul2agi.mp3",
+        "p5JsScript": {
+          "lang": "javascript"
+        }
+      },
+      "videoEnd": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973897/Video/portal2_breathing_anchor_yzwgnb.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png"
+      }
+    },
+    "name": "Ancla de la respiración",
+    "slides": [
+      {
+        "hostNotes": [
+          {
+            "text": "Bienvenidos/as. Soy X y hoy trabajaremos durante unos 30 minutos en anclarnos en el aquí y el ahora.\n\nPrimero de todo haremos una breve introducción, luego un ejercicio de meditación, seguiremos con una reflexión y, finalmente, compartiremos nuestra experiencia entre todos/as"
+          },
+          {
+            "text": "Comencemos con una breve reflexión. ¿Qué agradeces en este momento? Por favor, responde en dos o tres palabras. X, ¿te gustaría comenzar?  \n\n> Deja que todos en la sesión, incluyéndote a ti, compartan uno por uno, una por una.\n\nGracias a todos/as por compartir. ¡Empecemos!"
+          }
+        ],
+        "type": "host",
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087603/Video/intro_breathing_anchor_jlh9pp.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "hostNotes": [
+          {
+            "text": "A veces, la vida sigue y sigue, con nuestras mentes centradas en el futuro o dando vueltas a experiencias pasadas. Estar en el aquí y el ahora puede ayudarnos a ganar perspectiva, a mantener la mente abierta a lo que la vida tiene para ofrecernos y disfrutar de lo que tenemos justo frente a nosotros/as."
+          },
+          {
+            "text": "El ejercicio de meditación que vamos a hacer ahora nos permite practicar la conciencia del momento presente y adoptar una postura observadora. Empecemos.\n\n> Pulsa play para comenzar la meditación."
+          }
+        ],
+        "type": "content",
+        "content": {
+          "video": {
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1674665235/Audio/meditation-breathing-anchor_mbrlw8.mp3"
+          },
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1748788889/Spanish/Audio%20MP3/AnclaRespiracio%CC%81n_2_rs4zir.mp3",
+            "durationTimer": true,
+            "subtitles": "https://res.cloudinary.com/cupcake-29k/raw/upload/q_auto,t_global/v1737624322/Spanish/Subtitles%20SRT/AnclaRespiracio%CC%81n_wj2ywc.srt"
+          }
+        }
+      },
+      {
+        "content": {
+          "heading": "¿Cómo fue el hecho de simplemente observar y respirar?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676642915/Lottie/default_1min_black_rosi2l.json",
+            "durationTimer": true,
+            "duration": 60
+          }
+        },
+        "hostNotes": [
+          {
+            "text": "Ahora tomaremos 1 minuto para reflexionar por nuestra cuenta.\n\n¿Cómo fue para ti hoy dar un paso hacia atrás y simplemente observar? Dejando que las cosas vengan y se vayan, con el enfoque en tu respiración."
+          },
+          {
+            "text": "Puedes tomar notas en un papel o mentalmente. No hay respuestas correctas o incorrectas, cada uno/a tiene sus propias respuestas. 1 minuto, empezando ahora.\n\n> Pulsa play para iniciar el temporizador.\n\nHa pasado 1 minuto, vamos a continuar."
+          }
+        ],
+        "type": "host"
+      },
+      {
+        "content": {
+          "heading": "¿Cómo fue el hecho de simplemente observar y respirar?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676639253/Lottie/default_2min_black_o6egey.json",
+            "durationTimer": true,
+            "duration": 120
+          }
+        },
+        "hostNotes": [
+          {
+            "text": "Ahora entramos en la parte de compartir. Tenemos tres reglas para compartir:\n\n1. **Lo que se diga aquí, se queda aquí.**\n2. **Todo lo que necesitas hacer es escuchar.** No se necesita arreglar, ayudar ni dar consejos. Solo estamos presentes y explorando lo que nosotros/as mismos/as y los/las demás estamos experimentando."
+          },
+          {
+            "text": "3. **Todo lo que sentimos dentro está bien.** Ira, amor, odio, tristeza. Lo que sea que surja. No hay correcto ni incorrecto. Simplemente es lo que es, hay lo que hay.\n\nSe establecerá un temporizador de 2 minutos como indicador. Si no deseas compartir, siempre puedes decir 'paso'."
+          },
+          {
+            "text": "¿Quién le gustaría empezar?\n\n> Deja que todos/as (o los/las que tengas tiempo) compartan uno a uno, una a una. Pulsa play para iniciar el temporizador. Reinicia el temporizador para cada nueva intervención.\n\nMuchas gracias a todos/as."
+          }
+        ],
+        "type": "sharing",
+        "id": "sharing"
+      },
+      {
+        "hostNotes": [
+          {
+            "text": "Bien hecho. Si te animas, puedes continuar con lo que comenzamos hoy aquí juntos/as, con la intención de llevarlo a tu vida diaria. Durante los próximos tres días, tómate un par de minutos cada día para arraigarte en el momento presente con tu respiración."
+          },
+          {
+            "text": "Puede ser una manera de construir tus propios recursos y resiliencia.\n\nAntes de dejar este espacio, hagamos una pequeña despedida.\n\n¿Qué te llevas de esto para el resto de tu día? Por favor, responde en dos o tres palabras."
+          },
+          {
+            "text": "¿Quién le gustaría empezar?\n\n> Deja que todos/as en la sesión compartan y/o se despidan uno por uno, una por una.\n\nGracias a todos/as por compartir y por uniros hoy a esta sesión.\n\n> Finaliza la sesión para enviar a todos/as a la experiencia de salida."
+          }
+        ],
+        "type": "host",
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087586/Video/outro_breathing_anchor_lnhnjw.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "content": {
+          "heading": "Bien hecho",
+          "text": "Si te animas, puedes continuar con lo que comenzamos hoy aquí juntos/as, con la intención de llevarlo a tu vida diaria: \n\nDurante los próximos tres días, tómate un par de minutos cada día para arraigarte en el momento presente con tu respiración.",
+          "image": {
+            "source": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+          }
+        },
+        "type": "instruction"
+      }
+    ],
+    "liveDuration": 30,
+    "theme": {
+      "textColor": "#2E2E2E",
+      "backgroundColor": "#f0c7d1"
+    },
+    "hidden": false,
+    "live": true,
+    "published": true,
+    "asyncDuration": 7,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "Ints Ivanovskis, art works",
+        "url": "https://www.linkedin.com/in/ints-ivanovskis-46ab0311a/",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1665413436/Contributors/Ints%20Ivanovskis.jpg"
+      },
+      {
+        "name": "Núria Tous, voz en Español",
+        "url": "https://www.linkedin.com/in/nuriatous/",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "link": "https://aware.29k.org/breathing-anchor",
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "async": true
+  },
+  "pt-BR": {
+    "description": "Meditação guiada para se centrar no momento presente através da respiração. A consciência do momento presente pode ajudar a reduzir a ruminação e o estresse, além de melhorar a tomada de decisões.",
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": ">Comece a sessão quando estiver pronto para seguir"
+        }
+      ],
+      "videoLoop": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973899/Video/portal1_breathing_anchor_iv6ljo.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png",
+        "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1678973982/Audio/portal_audio_breathing_anchor_ul2agi.mp3",
+        "p5JsScript": {
+          "lang": "javascript"
+        }
+      },
+      "videoEnd": {
+        "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1678973897/Video/portal2_breathing_anchor_yzwgnb.mp4",
+        "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973955/Images/portal1_breathing_anchor_thumbnail_a9slfm.png"
+      }
+    },
+    "name": "Âncora da respiração",
+    "slides": [
+      {
+        "hostNotes": [
+          {
+            "text": "Bem-vindo(a). Eu sou X e hoje vamos trabalhar por cerca de 30 minutos em nos ancorar aqui e agora.\n\nFaremos uma breve introdução, seguida de um exercício de meditação, um momento para reflexão e, por fim, o compartilhamento de nossas experiências entre nós."
+          },
+          {
+            "text": "Vamos começar com um mini check-in. Pelo que você é grato agora? Por favor, responda em duas ou três palavras. X, gostaria de começar?\n\n> Deixe todos na sessão, inclusive você, fazerem o check-in um por um.\n\nObrigado a todos por compartilharem. Vamos começar."
+          }
+        ],
+        "type": "host",
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087603/Video/intro_breathing_anchor_jlh9pp.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "hostNotes": [
+          {
+            "text": "Às vezes, a vida simplesmente segue em frente, com nossa mente voltada para o futuro ou presa em experiências passadas. Estar no aqui e agora pode nos ajudar a ganhar perspectiva, estar mais abertos ao que a vida tem a oferecer e aproveitar o que está bem diante do nosso nariz."
+          },
+          {
+            "text": "O exercício de meditação que faremos agora nos permite praticar a consciência do momento presente e adotar uma postura de observação. Vamos começar.\n\n> Aperte play para iniciar a meditação."
+          }
+        ],
+        "type": "content",
+        "content": {
+          "video": {
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1674665235/Audio/meditation-breathing-anchor_mbrlw8.mp3"
+          },
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+            "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1701766917/Audio/Breathing-anchor_xgqgho.mp3",
+            "durationTimer": true,
+            "subtitles": "https://res.cloudinary.com/cupcake-29k/raw/upload/q_auto,t_global/v1689599833/SRT%20(captions)%20files/Breathing-anchor_wc2hfy.srt"
+          }
+        }
+      },
+      {
+        "content": {
+          "heading": "Como foi simplesmente observar e respirar?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676642915/Lottie/default_1min_black_rosi2l.json",
+            "durationTimer": true,
+            "duration": 60
+          }
+        },
+        "hostNotes": [
+          {
+            "text": "Agora vamos tirar 1 minuto para refletir individualmente.\n\nComo foi para você hoje dar um passo para trás e apenas observar? Deixar as coisas virem e irem, com foco na respiração."
+          },
+          {
+            "text": "Você pode fazer anotações em um papel ou apenas mentalmente. Não existe certo ou errado aqui, nossas respostas são pessoais. 1 minuto começando agora.\n\n> Aperte play para iniciar o cronômetro.\n\nPassou 1 minuto, é hora de seguir em frente."
+          }
+        ],
+        "type": "reflection"
+      },
+      {
+        "content": {
+          "heading": "Como foi simplesmente observar e respirar?",
+          "lottie": {
+            "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676639253/Lottie/default_2min_black_o6egey.json",
+            "durationTimer": true,
+            "duration": 120
+          }
+        },
+        "hostNotes": [
+          {
+            "text": "Agora estamos entrando na parte de compartilhamento. Temos três regras para o compartilhamento:\n\n1. **O que é dito aqui, fica aqui.**\n2. **Tudo o que você precisa fazer é ouvir.** Não é necessário consertar, ajudar ou dar conselhos. Estamos apenas presentes e explorando o que nós e os outros estamos vivenciando."
+          },
+          {
+            "text": "3. **Tudo o que você sentir é válido.** Raiva, amor, ódio, tristeza. O que surgir. Não existe certo ou errado. \n\nO cronômetro será ajustado para 2 minutos como referência. Se você não quiser compartilhar, pode simplesmente dizer “passo”.\n\n"
+          },
+          {
+            "text": "Quem gostaria de começar?\n\n> Deixe todos (ou o maior número possível, conforme o tempo permitir) compartilharem um por um. Aperte play para iniciar o cronômetro. Reinicie para cada novo compartilhamento.\n\nMuito obrigado a todos.\n\n"
+          }
+        ],
+        "type": "sharing",
+        "id": "sharing"
+      },
+      {
+        "hostNotes": [
+          {
+            "text": "Muito bem. Se quiser, você pode continuar o que começamos aqui hoje com uma sugestão para trazer isso para o seu dia a dia. Nos próximos três dias, reserve alguns minutos por dia para se centrar no momento presente através da respiração."
+          },
+          {
+            "text": "Isso pode ser uma forma de construir seus próprios recursos e resiliência.\n\nAntes de encerrarmos este espaço, vamos fazer um mini check-out.\n\nO que você levará daqui para o restante do seu dia? Por favor, responda em duas ou três palavras."
+          },
+          {
+            "text": "Quem gostaria de começar?\n\n> Deixe todos (ou o maior número possível, conforme o tempo permitir) compartilharem um por um. Aperte play para iniciar o cronômetro. Reinicie para cada novo compartilhamento.\n\nMuito obrigado a todos.\n\n"
+          }
+        ],
+        "type": "host",
+        "video": {
+          "source": "https://res.cloudinary.com/cupcake-29k/video/upload/q_auto/v1682087586/Video/outro_breathing_anchor_lnhnjw.mp4",
+          "preview": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1682087605/Images/host%20thumb%20breathing%20anchor.jpg"
+        }
+      },
+      {
+        "content": {
+          "heading": "Muito bem",
+          "text": "Se quiser, você pode continuar com esta sugestão:\n\nNos próximos três dias, reserve alguns minutos por dia para se centrar no momento presente através da respiração.",
+          "image": {
+            "source": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+          }
+        },
+        "type": "instruction"
+      }
+    ],
+    "id": "b18c1cff-bb43-44b1-81a1-2877cc018ab4",
+    "liveDuration": 30,
+    "theme": {
+      "textColor": "#2E2E2E",
+      "backgroundColor": "#f0c7d1"
+    },
+    "hidden": false,
+    "live": true,
+    "published": false,
+    "asyncDuration": 7,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1678973954/Images/card_image_breathing_anchor_vibuvl.png"
+      }
+    },
+    "coCreators": [
+      {
+        "name": "Ints Ivanovskis, art works",
+        "url": "https://www.linkedin.com/in/ints-ivanovskis-46ab0311a/",
+        "image": "https://res.cloudinary.com/cupcake-29k/image/upload/t_cocreator_image/v1665413436/Contributors/Ints%20Ivanovskis.jpg"
+      }
+    ],
+    "tags": [
+      "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+      "8da0534a-5da9-430a-bdf3-242ace6460fb"
+    ],
+    "link": "https://aware.29k.org/breathing-anchor",
+    "async": true
+  }
+}

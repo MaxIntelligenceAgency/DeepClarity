@@ -1,0 +1,26 @@
+{
+  "en": {
+    "sessions": "sessions",
+    "new": "New"
+  },
+  "pt-PT": {
+    "sessions": "sessões",
+    "new": "Novo"
+  },
+  "sv": {
+    "sessions": "sessioner",
+    "new": "Ny"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "new": "Nuevo",
+    "sessions": "sesiones"
+  },
+  "pt-BR": {
+    "new": "Novo",
+    "sessions": "sessões"
+  }
+}

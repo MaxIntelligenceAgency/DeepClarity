@@ -1,0 +1,26 @@
+{
+  "en": {
+    "with": "with",
+    "minutesAbbreviation": "min"
+  },
+  "sv": {
+    "with": "med",
+    "minutesAbbreviation": "min"
+  },
+  "pt-PT": {
+    "with": "com",
+    "minutesAbbreviation": "min"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "minutesAbbreviation": "min",
+    "with": "con"
+  },
+  "pt-BR": {
+    "minutesAbbreviation": "min",
+    "with": "com"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "en": {
+    "header": "Verification",
+    "email": "Email",
+    "password": "Password",
+    "upgrade": "Upgrade",
+    "code": "Code",
+    "signIn": "Sign in"
+  },
+  "sv": {
+    "header": "Verifikation",
+    "email": "Epost",
+    "password": "Lösenord",
+    "upgrade": "Uppgradera",
+    "code": "Kod",
+    "signIn": "Logga in"
+  },
+  "pt-PT": {
+    "header": "Validação",
+    "email": "Email",
+    "password": "Password",
+    "upgrade": "Atualizar",
+    "code": "Código",
+    "signIn": "Entrar"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "code": "Código",
+    "email": "Correo electrónico / Email",
+    "header": "Verificación",
+    "password": "Contraseña",
+    "signIn": "Iniciar sesión",
+    "upgrade": "Actualizar"
+  },
+  "pt-BR": {
+    "code": "Código",
+    "email": "E-mail",
+    "header": "Verificação",
+    "password": "Senha",
+    "signIn": "Entrar",
+    "upgrade": "Atualizar"
+  }
+}

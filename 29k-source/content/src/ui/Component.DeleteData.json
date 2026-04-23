@@ -1,0 +1,46 @@
+{
+  "en": {
+    "title": "Delete user & data",
+    "message": "Are you sure you want to delete your user and all data?",
+    "actions": {
+      "cancel": "No",
+      "confirm": "Yes, delete"
+    }
+  },
+  "pt-PT": {
+    "title": "Remover utilizador e dados",
+    "message": "Tens a certeza que queres remover o teu utilizador e os teus dados?",
+    "actions": {
+      "cancel": "Não",
+      "confirm": "Sim, remover"
+    }
+  },
+  "sv": {
+    "title": "Radera användare och data",
+    "message": "Är du säker på att du vill radera din användare och all data?",
+    "actions": {
+      "cancel": "Nej",
+      "confirm": "Ja, radera"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "actions": {
+      "cancel": "No",
+      "confirm": "Sí, borrar"
+    },
+    "message": "¿Estás seguro de que quieres eliminar tu cuenta de usuario y todos los datos?",
+    "title": "Eliminar cuenta de usuario y datos"
+  },
+  "pt-BR": {
+    "actions": {
+      "cancel": "Não",
+      "confirm": "Sim, excluir"
+    },
+    "message": "Tem certeza de que deseja excluir seu usuário e todos os dados?",
+    "title": "Excluir usuário e dados"
+  }
+}

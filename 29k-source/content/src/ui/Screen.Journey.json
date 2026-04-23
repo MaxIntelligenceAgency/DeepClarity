@@ -1,0 +1,61 @@
+{
+  "en": {
+    "headings": {
+      "completed": "Completed",
+      "collections": "Programs",
+      "planned": "Your planned sessions"
+    },
+    "fallback": "🌱 Your journey has just begun",
+    "meaninfulSessions": "Meaningful\nsessions",
+    "totalSessions": "Total\nsessions",
+    "hostedSessions": "Hosted\nsessions"
+  },
+  "pt-PT": {
+    "headings": {
+      "completed": "Concluídas",
+      "planned": "Sessões planeadas",
+      "collections": "Programas"
+    },
+    "fallback": "🌱 A tua jornada está a começar",
+    "hostedSessions": "Sessões Moderadas",
+    "totalSessions": "Sessões Totais",
+    "meaninfulSessions": "Sessões com Significado"
+  },
+  "sv": {
+    "headings": {
+      "completed": "Avklarade",
+      "collections": "Program",
+      "planned": "Planerade sessioner"
+    },
+    "fallback": "🌱 Du har just börjat din resa",
+    "meaninfulSessions": "Meningsfulla sessioner",
+    "totalSessions": "Sessioner totalt",
+    "hostedSessions": "Värd-sessioner"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "fallback": "🌱 Tu viaje acaba de empezar",
+    "headings": {
+      "collections": "Programas",
+      "completed": "Completado",
+      "planned": "Tus sesiones planificadas"
+    },
+    "hostedSessions": "Sesiones \norganizadas por mí",
+    "meaninfulSessions": "Sesiones \nsignificativas",
+    "totalSessions": "Todas\nlas sesiones"
+  },
+  "pt-BR": {
+    "fallback": "🌱 Sua jornada está apenas começando",
+    "headings": {
+      "collections": "Programas",
+      "completed": "Concluído",
+      "planned": "Suas sessões planejadas"
+    },
+    "hostedSessions": "Sessões\r\nhospedadas",
+    "meaninfulSessions": "Sessões\r\nsignificativas",
+    "totalSessions": "Total de\r\nsessões"
+  }
+}

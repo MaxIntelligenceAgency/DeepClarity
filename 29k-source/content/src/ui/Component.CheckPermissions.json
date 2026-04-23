@@ -1,0 +1,108 @@
+{
+  "en": {
+    "join": {
+      "title": "Before you join",
+      "message": "You haven't given the app permissions to use camera and/or microphone. That's ok, but you won't be able to participate fully in the session.",
+      "dismiss": "Join anyway",
+      "confirm": "Open settings"
+    },
+    "camera": {
+      "title": "Permission for camera was denied",
+      "message": "Allow Aware to access your camera so that you can participate in the session. This will restart the Aware app.",
+      "dismiss": "Cancel",
+      "confirm": "Open Settings"
+    },
+    "microphone": {
+      "title": "Permission for microphone was denied",
+      "message": "Allow Aware to access your microphone so that you can participate in the session. This will restart the Aware app.",
+      "dismiss": "Cancel",
+      "confirm": "Open Settings"
+    }
+  },
+  "pt-PT": {
+    "join": {
+      "title": "Antes de entrares",
+      "message": "Não deste permissões à app para poderes ligar/desligar a câmara e/ou o microfone. Não há problema mas desta forma não vais poder aproveitar ao máximo a sessão.",
+      "join": "Participar mesmo assim",
+      "openSettings": "Abrir configurações",
+      "dismiss": "Entrar na mesma",
+      "confirm": "Abrir configurações"
+    },
+    "camera": {
+      "title": "Autorização de acesso à câmara recusada",
+      "message": "Permitir que as sessões Aware tenham acesso à câmara para participares na sessão. Isto vai reiniciar a app Aware.",
+      "dismiss": "Cancelar",
+      "confirm": "Abrir configurações"
+    },
+    "microphone": {
+      "title": "Autorização de acesso ao microfone recusada",
+      "message": "Permitir que as sessões Aware tenham acesso ao microfone para participares na sessão. Isto vai reiniciar a app Aware.",
+      "dismiss": "Cancelar",
+      "confirm": "Abrir configurações"
+    }
+  },
+  "sv": {
+    "join": {
+      "title": "Innan du går med",
+      "message": "Du har inte gett appen tillåtelse att använda kameran och mikrofonen. Det är helt upp till dig. Vi vill bara att du ska veta att du då inte kan delta fullt ut i sessionen.",
+      "dismiss": "Gå med ändå",
+      "confirm": "Öppna inställningar"
+    },
+    "camera": {
+      "title": "Åtkomst till kamera nekades",
+      "message": "Ge Aware tillåtelse att använda kameran för att kunna delta i sessionen. Appen startar om när du gett tillåtelse. ",
+      "dismiss": "Avbryt",
+      "confirm": "Öppna inställningar"
+    },
+    "microphone": {
+      "title": "Åtkomst till mikrofon nekades ",
+      "message": "Ge Aware tillåtelse att använda mikrofonen för att kunna delta i sessionen. Appen startar om när du gett tillåtelse. . ",
+      "dismiss": "Avbryt",
+      "confirm": "Öppna inställningar"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "camera": {
+      "confirm": "Abrir configuración",
+      "dismiss": "Cancelar",
+      "message": "Permite que Aware acceda a tu cámara para que puedas participar en la sesión. Esto reiniciará la aplicación.",
+      "title": "Se denegó el permiso para la cámara."
+    },
+    "join": {
+      "confirm": "Abrir configuración",
+      "dismiss": "Unirme de todos modos",
+      "message": "No has dado permisos a la aplicación para usar la cámara y/o el micrófono. No pasa nada, está bien, simplemente no podrás participar completamente en la sesión.",
+      "title": "Antes de unirte"
+    },
+    "microphone": {
+      "confirm": "Abrir configuración",
+      "dismiss": "Cancelar",
+      "message": "Permite que Aware acceda a tu micrófono para que puedas participar en la sesión. Esto reiniciará la aplicación.",
+      "title": "Se denegó el permiso para el micrófono."
+    }
+  },
+  "pt-BR": {
+    "camera": {
+      "confirm": "Abrir configurações",
+      "dismiss": "Cancelar",
+      "message": "Permita que o Aware acesse sua câmera para que você possa participar da sessão. Isso irá reiniciar o aplicativo Aware.",
+      "title": "Permissão para câmera foi negada"
+    },
+    "join": {
+      "confirm": "Abrir configurações",
+      "dismiss": "Participar mesmo assim",
+      "message": "Você não concedeu permissões ao aplicativo para usar a câmera e/ou o microfone. Tudo bem, mas você não poderá participar completamente da sessão.",
+      "title": "Antes de entrar"
+    },
+    "microphone": {
+      "confirm": "Abrir configurações",
+      "dismiss": "Cancelar",
+      "message": "Permita que o Aware acesse seu microfone para que você possa participar da sessão. Isso irá reiniciar o aplicativo Aware.",
+      "title": "Permissão para microfone foi negada"
+    }
+  }
+}

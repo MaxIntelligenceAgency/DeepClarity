@@ -1,0 +1,116 @@
+{
+  "en": {
+    "update": {
+      "image__image": "",
+      "android": {
+        "text__markdown": "## We've made the app even ~~better!~~\n\nYou can get the latest version from ~~[Google PlayStore](https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake)~~",
+        "link": "https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake",
+        "button": "Update"
+      },
+      "ios": {
+        "text__markdown": "## We've made the app even ~~better!~~\n\nYou can get the latest version from ~~[Apple AppStore](https://apps.apple.com/us/app/aware-mindfulness-wellbeing/id1631342681)~~",
+        "link": "https://apps.apple.com/us/app/aware-mindfulness-wellbeing/id1631342681",
+        "button": "Update"
+      }
+    },
+    "maintenance": {
+      "image__image": "https://res.cloudinary.com/twentyninek/image/upload/q_auto,t_global/v1648213290/KillSwitch%20illustrations/Failed_Illutration_wer2cx.png",
+      "text__markdown": "## We're undergoing a bit of a ~~maintenance~~\n\nSorry for the inconvenience. We’ll be back up and running as soon as possible."
+    },
+    "failed": {
+      "image__image": "https://res.cloudinary.com/twentyninek/image/upload/q_auto,t_global/v1648213290/KillSwitch%20illustrations/Failed_Illutration_wer2cx.png",
+      "text__markdown": "## Something’s not quite right...\n\nWe’re having some technical difficulties right now. Try again in a moment."
+    },
+    "retry": "Try again"
+  },
+  "pt-PT": {
+    "update": {
+      "image__image": "",
+      "android": {
+        "text__markdown": "## Tornamos a app ainda ~~melhor!~~\n\nPodes obter a última versão na ~~[Google PlayStore](https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake)~~",
+        "link": "https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake",
+        "button": "Atualizar"
+      },
+      "ios": {
+        "text__markdown": "## Tornamos a app ainda ~~melhor!~~\n\nPodes obter a última versão na ~~[Apple AppStore](https://apps.apple.com/us/app/aware-mindfulness-wellbeing/id1631342681)~~",
+        "link": "https://apps.apple.com/us/app/aware-mindfulness-wellbeing/id1631342681",
+        "button": "Atualizar"
+      }
+    },
+    "maintenance": {
+      "image__image": "https://res.cloudinary.com/twentyninek/image/upload/q_auto,t_global/v1648213290/KillSwitch%20illustrations/Failed_Illutration_wer2cx.png",
+      "text__markdown": "## Estamos em ~~manutenção~~\n\nDesculpa o incómodo. Vamos tentar voltar o mais rapidamente possível."
+    },
+    "failed": {
+      "image__image": "https://res.cloudinary.com/twentyninek/image/upload/q_auto,t_global/v1648213290/KillSwitch%20illustrations/Failed_Illutration_wer2cx.png",
+      "text__markdown": "## Algo correu mal...\n\nEstamos com algumas dificuldades técnicas. Tenta de novo daqui a pouco."
+    },
+    "retry": "Tentar de novo"
+  },
+  "sv": {
+    "update": {
+      "image__image": "",
+      "android": {
+        "text__markdown": "## Vi har gjort appen ännu ~~bättre!~~\n\nDu kan hämta den senaste versionen från ~~[Google PlayStore](https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake)~~",
+        "link": "https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake",
+        "button": "Uppdatera"
+      },
+      "ios": {
+        "text__markdown": "## Vi har gjort appen ännu ~~bättre!~~\n\nDu kan hämta den senaste versionen från ~~[Apple AppStore](https://apps.apple.com/se/app/aware-mindfulness-wellbeing/id1631342681)~~",
+        "link": "https://apps.apple.com/se/app/aware-mindfulness-wellbeing/id1631342681",
+        "button": "Uppdatera"
+      }
+    },
+    "maintenance": {
+      "image__image": "https://res.cloudinary.com/twentyninek/image/upload/q_auto,t_global/v1648213290/KillSwitch%20illustrations/Failed_Illutration_wer2cx.png",
+      "text__markdown": "## Vi fixar med lite ~~underhåll~~\n\nBeklagar oredan. Vi kommer att vara igång igen så snart som möjligt."
+    },
+    "failed": {
+      "image__image": "https://res.cloudinary.com/twentyninek/image/upload/q_auto,t_global/v1648213290/KillSwitch%20illustrations/Failed_Illutration_wer2cx.png",
+      "text__markdown": "## Något stämmer inte...\n\n Vi har tekniska problem just nu. Prova igen om en stund."
+    },
+    "retry": "Försök igen"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "failed": {
+      "text__markdown": "## Algo no está funcionando correctamente...\n\nEstamos teniendo algunos problemas técnicos en este momento. Inténtalo de nuevo en un momento."
+    },
+    "maintenance": {
+      "text__markdown": "## Estamos realizando algunos pequeños ~~ajustes~~\n\nDisculpa las molestias. Estaremos de vuelta y funcionando lo antes posible."
+    },
+    "retry": "Vuelve a intentarlo",
+    "update": {
+      "android": {
+        "button": "Actualizar",
+        "text__markdown": "## ¡Hemos mejorado la app aún ~~más!~~\n\nPuedes obtener la última versión en ~~[Google PlayStore](https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake)~~"
+      },
+      "ios": {
+        "button": "Actualizar",
+        "text__markdown": "## ¡Hemos mejorado la app aún ~~más!~~\n\nPuedes obtener la última versión en ~~[Apple AppStore](https://apps.apple.com/us/app/aware-mindfulness-wellbeing/id1631342681)~~"
+      }
+    }
+  },
+  "pt-BR": {
+    "failed": {
+      "text__markdown": "## Algo não está certo...\r\n\r\nEstamos com algumas dificuldades técnicas no momento. Tente novamente em instantes."
+    },
+    "maintenance": {
+      "text__markdown": "## Estamos passando por uma pequena ~~manutenção~~\r\n\r\nDesculpe pelo transtorno. Voltaremos a funcionar o mais rápido possível."
+    },
+    "retry": "Tentar novamente",
+    "update": {
+      "android": {
+        "button": "Atualizar",
+        "text__markdown": "## Deixamos o app ainda ~~melhor!~~\r\n\r\nVocê pode obter a versão mais recente na ~~[Google PlayStore](https://play.google.com/store/apps/details?id=org.twentyninek.app.cupcake)~~"
+      },
+      "ios": {
+        "button": "Atualizar",
+        "text__markdown": "## Deixamos o app ainda ~~melhor!~~\r\n\r\nVocê pode obter a versão mais recente na ~~[Apple AppStore](https://apps.apple.com/us/app/aware-mindfulness-wellbeing/id1631342681)~~"
+      }
+    }
+  }
+}

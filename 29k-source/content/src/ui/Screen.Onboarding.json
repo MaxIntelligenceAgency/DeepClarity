@@ -1,0 +1,157 @@
+{
+  "en": {
+    "privacyNotice": "Privacy Notice",
+    "start": {
+      "heading1": "",
+      "heading2": "Discover yourself, connect with others."
+    },
+    "page1": {
+      "heading__text": "Science-based\npsychological tools"
+    },
+    "page2": {
+      "heading__text": "Meaningful\nconnections",
+      "name1": "Ints",
+      "name2": "Jenny",
+      "name3": "Lisa"
+    },
+    "page3": {
+      "heading__text": "For the\ngreater good",
+      "card": {
+        "heading": "Non-profit",
+        "text__markdown": "We're free for personal use.\\\nWe don't sell data. We don't do ads.\\\nSo that you can focus on practicing wellbeing, thrive, and contribute to a better future for all."
+      }
+    },
+    "page4": {
+      "sessions__text": "Guided experiences for\nnew perspectives on life.\n\nOn your own, with\nfriends or new connections.",
+      "journey__text": "Your own personal path\ntowards a more thriving life."
+    },
+    "privacyNoticeUrl": "https://wiki.29k.org/aware-privacy-notice",
+    "skipButton": "Skip",
+    "continueButton": "Continue",
+    "getStartedButton": "Get started"
+  },
+  "pt-PT": {
+    "privacyNotice": "Privacidade",
+    "start": {
+      "heading1": "",
+      "heading2": "Descobre-te, liga-te aos outros."
+    },
+    "page1": {
+      "heading__text": "Ferramentas psicológicas\nbaseadas em ciência"
+    },
+    "page2": {
+      "heading__text": "Ligações com\nsignificado",
+      "name1": "Ints",
+      "name2": "Jenny",
+      "name3": "Lisa"
+    },
+    "page3": {
+      "heading__text": "Para um \nbem maior",
+      "card": {
+        "heading": "Não lucrativa",
+        "text__markdown": "Gratuita para uso pessoal.\\\nNão vendemos dados. Não fazemos anúncios.\\\nPara que possas focar na prática do bem-estar, prosperar e contribuir para um futuro melhor para todos."
+      }
+    },
+    "page4": {
+      "sessions__text": "Experiências guiadas para\nnovas perspetivas de vida.\n\nIndividualmente, com\nos amigos ou novas ligações.",
+      "journey__text": "O teu caminho pessoal\npara uma vida mais próspera."
+    },
+    "privacyNoticeUrl": "https://wiki.29k.org/aware-privacy-notice",
+    "skipButton": "Ignorar",
+    "continueButton": "Continuar",
+    "getStartedButton": "Começar"
+  },
+  "sv": {
+    "privacyNotice": "Integritetspolicy",
+    "start": {
+      "heading1": "",
+      "heading2": "Utforska dig själv, tillsammans med andra."
+    },
+    "page1": {
+      "heading__text": "Forskningsbaserade\npsykologiska verktyg"
+    },
+    "page2": {
+      "heading__text": "Meningsfullt\nsammanhang",
+      "name1": "Ints",
+      "name2": "Jenny",
+      "name3": "Lisa"
+    },
+    "page3": {
+      "heading__text": "För en \nbättre värld",
+      "card": {
+        "heading": "Icke vinst-drivande",
+        "text__markdown": "Gratis för privat bruk.\\\nVi säljer aldrig data. Vi har inga annonser.\\\nSå att du kan fokusera på ditt välbefinnande, utvecklas och bidra till en bättre framtid för alla."
+      }
+    },
+    "page4": {
+      "sessions__text": "Guidade övningar för\nnya perspektiv.\n\nPå egen hand, med\nvänner eller nya kontakter.",
+      "journey__text": "Din personliga plan\nför ett meningsfullt liv."
+    },
+    "privacyNoticeUrl": "https://wiki.29k.org/aware-integritetspolicy",
+    "skipButton": "Hoppa över",
+    "continueButton": "Fortsätt",
+    "getStartedButton": "Kom igång"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "continueButton": "Continuar",
+    "getStartedButton": "Empezar",
+    "page1": {
+      "heading__text": "Herramientas psicológicas \nbasadas en la ciencia"
+    },
+    "page2": {
+      "heading__text": "Contactos\nvaliosos",
+      "name1": "Ints",
+      "name2": "Jenny",
+      "name3": "Lisa"
+    },
+    "page3": {
+      "card": {
+        "heading": "Sin ánimo de lucro",
+        "text__markdown": "Somos gratuitos para uso personal.\\\nNo vendemos datos. No mostramos anuncios.\\\nPara que puedas enfocarte en practicar tu bienestar, prosperar y contribuir a un futuro mejor para todos/as."
+      },
+      "heading__text": "Para el \nbien común"
+    },
+    "page4": {
+      "journey__text": "Tu propio camino hacia \nuna vida más plena.",
+      "sessions__text": "Experiencias guiadas para \nnuevas perspectivas sobre la vida.\n\nPor tu cuenta, con amigos/as \no con nuevos contactos."
+    },
+    "privacyNotice": "Aviso de privacidad",
+    "skipButton": "Omitir",
+    "start": {
+      "heading2": "Descúbrete a ti mismo, conéctate con los demás."
+    }
+  },
+  "pt-BR": {
+    "continueButton": "Continuar",
+    "getStartedButton": "Começar",
+    "page1": {
+      "heading__text": "Ferramentas psicológicas\r\nbaseadas em ciência"
+    },
+    "page2": {
+      "heading__text": "Conexões\r\nsignificativas",
+      "name1": "Ints",
+      "name2": "Jenny",
+      "name3": "Lisa"
+    },
+    "page3": {
+      "card": {
+        "heading": "Sem fins lucrativos",
+        "text__markdown": "Somos gratuitos para uso pessoal.\\\r\nNão vendemos dados. Não fazemos anúncios.\\\r\nAssim, você pode focar em praticar o bem-estar, prosperar e contribuir para um futuro melhor para todos."
+      },
+      "heading__text": "Pelo\r\nbem maior"
+    },
+    "page4": {
+      "journey__text": "Seu próprio caminho pessoal\r\nrumo a uma vida mais plena.",
+      "sessions__text": "Experiências guiadas para\r\nnovas perspectivas sobre a vida.\r\n\r\nSozinho(a), com amigos ou novas conexões."
+    },
+    "privacyNotice": "Aviso de Privacidade",
+    "skipButton": "Pular",
+    "start": {
+      "heading2": "Descubra a si mesmo(a), conecte-se com os outros."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "en": {
+    "title": "Report",
+    "reportHeading": "What would you like to report?",
+    "reportPlaceholder": "Share your thoughts so we can improve",
+    "emailHeading": "Reply to:",
+    "emailPlaceholder": "Type the email you want us to reply to.",
+    "confirmButton": "Send report",
+    "confirmationText": "Thank you for reaching out 🌱"
+  },
+  "pt-PT": {
+    "title": "Reportar",
+    "reportHeading": "O que gostarias de reportar?",
+    "reportPlaceholder": "Partilha as tuas opiniões para podermos melhorar",
+    "emailHeading": "Responder para:",
+    "emailPlaceholder": "Escreve o email onde pretendes receber a tua resposta",
+    "confirmButton": "Enviar relatório",
+    "confirmationText": "Obrigada por nos contactares 🌱"
+  },
+  "sv": {
+    "title": "Anmäl",
+    "reportHeading": "Vad vill du anmäla?",
+    "reportPlaceholder": "Berätta vad du tycker så att vi kan bli bättre",
+    "emailHeading": "Svara till: ",
+    "emailPlaceholder": "Skriv den email du vill att vi skickar svar till.",
+    "confirmButton": "Skicka anmälan",
+    "confirmationText": "Tack för att du kontaktar oss 🌱"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "confirmButton": "Enviar informe",
+    "confirmationText": "Gracias por contactarnos 🌱",
+    "emailHeading": "Contestar a:",
+    "emailPlaceholder": "Escribe el correo electrónico al que deseas que te respondamos.",
+    "reportHeading": "¿Sobre qué deseas informar?",
+    "reportPlaceholder": "Comparte tus pensamientos para que podamos mejorar",
+    "title": "Informar"
+  },
+  "pt-BR": {
+    "confirmButton": "Enviar relatório",
+    "confirmationText": "Obrigado por entrar em contato 🌱",
+    "emailHeading": "Responder para:",
+    "emailPlaceholder": "Digite o e-mail para o qual você deseja que respondamos.",
+    "reportHeading": "O que você gostaria de relatar?",
+    "reportPlaceholder": "Compartilhe suas ideias para que possamos melhorar",
+    "title": "Relatar"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "en": {
+    "description": "The session you're looking for is not available anymore.",
+    "descriptionEjected": "You have been removed from this session by the host.",
+    "infoEjected": "You won't be able to rejoin it.",
+    "codeOfConductInfo": "Read our code of conduct ",
+    "codeOfConductHere": "here",
+    "codeOfConductLink": "https://wiki.29k.org/user-code-of-conduct",
+    "image__image": "https://res.cloudinary.com/cupcake-29k/image/upload/v1683807355/Images/flowers_slijjk.png"
+  },
+  "pt-PT": {
+    "description": "A sessão que estás a procurar já não está disponível.",
+    "image__image": "https://res.cloudinary.com/cupcake-29k/image/upload/v1683807355/Images/flowers_slijjk.png",
+    "descriptionEjected": "Foste removido desta sessão pelo/a moderador/a.",
+    "infoEjected": "Não poderás voltar a entrar na sessão.",
+    "codeOfConductInfo": "Lê o nosso código de conduta",
+    "codeOfConductHere": "aqui",
+    "codeOfConductLink": "https://wiki.29k.org/user-code-of-conduct"
+  },
+  "sv": {
+    "description": "Sessionen du letar efter finns inte längre.",
+    "descriptionEjected": "Du har blivit borttagen från sessionen av värden.",
+    "infoEjected": "Du kommer inte kunna gå med igen.",
+    "codeOfConductInfo": "Läs vår uppförandekod ",
+    "codeOfConductHere": "här",
+    "codeOfConductLink": "https://wiki.29k.org/user-code-of-conduct",
+    "image__image": "https://res.cloudinary.com/cupcake-29k/image/upload/q_auto,t_global/v1669209703/Images/session-unavailable_eb9tjk.png"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "codeOfConductHere": "aquí",
+    "codeOfConductInfo": "Lee nuestro código de conducta",
+    "description": "La sesión que estás buscando ya no está disponible.",
+    "descriptionEjected": "Has sido eliminado de esta sesión por el/la anfitrión/a.",
+    "infoEjected": "No podrás volver a unirte a la sesión."
+  },
+  "pt-BR": {
+    "codeOfConductHere": "aqui",
+    "codeOfConductInfo": "Leia nosso código de conduta",
+    "description": "A sessão que você está procurando não está mais disponível.",
+    "descriptionEjected": "Você foi removido desta sessão pelo anfitrião.",
+    "infoEjected": "Você não poderá participar novamente."
+  }
+}

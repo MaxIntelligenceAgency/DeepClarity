@@ -1,0 +1,51 @@
+{
+  "en": {
+    "counterLabel": {
+      "starts": "Starts",
+      "startsIn": "Starts in"
+    },
+    "counter": {
+      "started": "Started"
+    }
+  },
+  "pt-PT": {
+    "counterLabel": {
+      "starts": "Inicia",
+      "startsIn": "Inicia em"
+    },
+    "counter": {
+      "started": "Iniciou"
+    }
+  },
+  "sv": {
+    "counterLabel": {
+      "starts": "Börjar",
+      "startsIn": "Börjar om"
+    },
+    "counter": {
+      "started": "Börjat"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "counter": {
+      "started": "Ha empezado"
+    },
+    "counterLabel": {
+      "starts": "Empieza",
+      "startsIn": "Empieza en"
+    }
+  },
+  "pt-BR": {
+    "counter": {
+      "started": "Iniciada"
+    },
+    "counterLabel": {
+      "starts": "Começa",
+      "startsIn": "Começa em"
+    }
+  }
+}

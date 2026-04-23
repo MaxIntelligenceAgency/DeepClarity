@@ -1,0 +1,36 @@
+{
+  "en": {
+    "title": "Register as a host to create public sessions",
+    "button": "Create account",
+    "password": "Password",
+    "email": "Email"
+  },
+  "pt-PT": {
+    "title": "Para criares sessões públicas tens de te registar como moderador/a.",
+    "button": "Criar conta",
+    "password": "Password",
+    "email": "Email"
+  },
+  "sv": {
+    "title": "För att hålla i sessioner för andra behöver du skapa ett konto.",
+    "button": "Skapa konto",
+    "password": "Lösenord",
+    "email": "Email"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "button": "Crear cuenta",
+    "email": "Correo electrónico / Email",
+    "password": "Contraseña",
+    "title": "Regístrate como anfitrión/a para crear sesiones abiertas a todo el mundo"
+  },
+  "pt-BR": {
+    "button": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "title": "Cadastre-se como anfitrião para criar sessões públicas"
+  }
+}

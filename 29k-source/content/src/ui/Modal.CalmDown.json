@@ -1,0 +1,41 @@
+{
+  "en": {
+    "title": "Calm down",
+    "body__markdown": "Find somewhere quiet and comfortable to sit, with your feet firmly on the ground.\n\n- Slowly push your feet hard against the floor.\n\n- Slowly press your fingertips together.\n\n- Take 10 slow, deep breaths.\n\n- Place one hand on your chest, and one on your belly and let your breathing make your belly hand move more than the chest hand for one minute.",
+    "lottie": {
+      "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1689599788/Audio/Breathing-anchor_wykjmp.mp3",
+      "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+      "durationTimer": true
+    }
+  },
+  "pt-PT": {
+    "title": "Acalmar",
+    "body__markdown": "Encontra um lugar tranquilo e confortável para te sentares, com os pés bem assentes no chão.\n\n* Lentamente, empurra os pés com força contra o chão.\n* Pressiona lentamente as pontas dos dedos.\n* Faz 10 respirações lentas e profundas.\n* Coloca uma mão no peito e outra na barriga e deixa a tua respiração fazer com que a mão da barriga se mova mais do que a mão do peito por um minuto.",
+    "lottie": {
+      "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1683734963/FJN/Meditations/Security%20Kit/ANCORAR_02_-_03_35_xycr96_bvxgmy.mp3",
+      "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+      "durationTimer": true
+    }
+  },
+  "sv": {
+    "title": "Varva ner",
+    "body__markdown": "Leta reda på någon lugn och bekväm plats där du kan sätta dig med fötterna stadigt i golvet.\n\n* Tryck sakta fotsulorna mot golvet.\n* Tryck sakta fingertopparna mot varandra.\n* Ta 10 långsamma och riktigt djupa andetag.\n* Lägg en hand på bröstkorgen och en på magen. Se om du kan få handen på magen att röra sig mer än handen över bröstet i minst en minut.",
+    "lottie": {
+      "durationTimer": "true",
+      "source": "https://res.cloudinary.com/cupcake-29k/raw/upload/v1676977421/Lottie/audio_meditation_default_black_default_omemwt.json",
+      "audio": "https://res.cloudinary.com/cupcake-29k/video/upload/v1689599788/Audio/Breathing-anchor_wykjmp.mp3"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "body__markdown": "Encuentra un lugar tranquilo y cómodo para sentarte, con los pies firmemente apoyados en el suelo.\n\n- Empuja tus pies lentamente y con fuerza contra el suelo.\n\n- Junta lentamente las puntas de los dedos.\n\n- Respira lenta y profundamente 10 veces.\n\nColoca una mano sobre tu pecho y la otra sobre tu abdomen, y durante un minuto, deja que la respiración haga que la mano en el abdomen se mueva más que la mano en el pecho.",
+    "title": "Relájate"
+  },
+  "pt-BR": {
+    "body__markdown": "Encontre um lugar tranquilo e confortável para sentar, com os pés firmemente apoiados no chão.\n\n- Empurre lentamente os pés com força contra o chão.\n\n- Pressione lentamente as pontas dos dedos uma contra a outra.\n\n- Faça 10 respirações lentas e profundas.\n\n- Coloque uma mão no peito e outra na barriga e deixe sua respiração mover mais a mão da barriga do que a do peito por um minuto.",
+    "title": "Acalme-se"
+  }
+}

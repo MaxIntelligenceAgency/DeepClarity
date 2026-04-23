@@ -1,0 +1,46 @@
+{
+  "en": {
+    "title": "Sign out",
+    "message": "Are you sure you want to sign out?",
+    "actions": {
+      "cancel": "No",
+      "confirm": "Yes, sign out"
+    }
+  },
+  "pt-PT": {
+    "title": "Sair",
+    "message": "Tens a certeza que queres sair?",
+    "actions": {
+      "cancel": "Não",
+      "confirm": "Sim, sair"
+    }
+  },
+  "sv": {
+    "title": "Logga ut",
+    "message": "Är du säker på att du vill logga ut?",
+    "actions": {
+      "cancel": "Nej",
+      "confirm": "Ja, logga ut"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "actions": {
+      "cancel": "No",
+      "confirm": "Sí, cerrar sesión."
+    },
+    "message": "¿Estás seguro/a de que quieres cerrar la sesión?",
+    "title": "Cerrar sesión."
+  },
+  "pt-BR": {
+    "actions": {
+      "cancel": "Não",
+      "confirm": "Sim, sair"
+    },
+    "message": "Tem certeza de que deseja sair?",
+    "title": "Sair"
+  }
+}

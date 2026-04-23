@@ -1,0 +1,31 @@
+{
+  "en": {
+    "heading": "Change host",
+    "description": "Share the link with the new host.\n\nOnce they accept you will no longer be able to edit this session.",
+    "button": "Assign new host"
+  },
+  "pt-PT": {
+    "heading": "Alterar o moderador",
+    "description": "Partilha a ligação com o novo moderador. Quando for aceite já não poderás alterar esta sessão. ",
+    "button": "Atribuir novo moderador"
+  },
+  "sv": {
+    "heading": "Byt värd",
+    "description": "Dela länken med den nya värden.\n\nNär de har accepterat kommer du inte längre att kunna redigera den här sessionen.",
+    "button": "Tilldela ny värd"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "button": "Asignar nuevo/a anfitrión/a",
+    "description": "Comparte el enlace con el/la nuevo/a anfitrión/a. \n\nUna vez que lo acepte, ya no podrás editar esta sesión.",
+    "heading": "Cambiar anfitrión/a"
+  },
+  "pt-BR": {
+    "button": "Designar novo anfitrião",
+    "description": "Compartilhe o link com o novo anfitrião.\n\nAssim que ele aceitar, você não poderá mais editar esta sessão.",
+    "heading": "Alterar anfitrião"
+  }
+}

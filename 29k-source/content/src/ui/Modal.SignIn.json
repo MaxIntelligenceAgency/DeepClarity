@@ -1,0 +1,77 @@
+{
+  "en": {
+    "title": "Sign in",
+    "email": "E-mail",
+    "password": "Password",
+    "signIn": "Sign in",
+    "reset": "Forgot password?",
+    "errors": {
+      "auth/invalid-email": "Wrong e-mail and/or password",
+      "auth/wrong-password": "Wrong e-mail and/or password",
+      "auth/user-not-found": "Wrong e-mail and/or password",
+      "auth/user-disabled": "Wrong e-mail and/or password",
+      "auth/network-request-failed": "Network request failed"
+    }
+  },
+  "pt-PT": {
+    "title": "Entrar",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Entrar",
+    "errors": {
+      "auth/invalid-email": "Email e/ou password errada",
+      "auth/wrong-password": "Email e/ou password errada",
+      "auth/user-not-found": "Email e/ou password errada",
+      "auth/user-disabled": "Email e/ou password errada",
+      "auth/network-request-failed": "Pedido falhou"
+    },
+    "reset": "Esqueci-me da password"
+  },
+  "sv": {
+    "title": "Logga in",
+    "email": "Email",
+    "password": "Lösenord",
+    "signIn": "Logga in",
+    "reset": "Glömt lösenord?",
+    "errors": {
+      "auth/invalid-email": "Fel email och/eller lösenord",
+      "auth/wrong-password": "Fel email och/eller lösenord",
+      "auth/user-not-found": "Fel email och/eller lösenord",
+      "auth/user-disabled": "Fel email och/eller lösenord",
+      "auth/network-request-failed": "Nätverksbegäran misslyckades",
+      "unknown": "Okänt fel"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "email": "Correo electrónico / Email",
+    "errors": {
+      "auth/invalid-email": "Correo electrónico y/o contraseña incorrectos",
+      "auth/network-request-failed": "Error en la solicitud de red",
+      "auth/user-disabled": "Correo electrónico y/o contraseña incorrectos",
+      "auth/user-not-found": "Correo electrónico y/o contraseña incorrectos",
+      "auth/wrong-password": "Correo electrónico y/o contraseña incorrectos"
+    },
+    "password": "Contraseña",
+    "reset": "¿Olvidaste tu contraseña?",
+    "signIn": "Iniciar sesión",
+    "title": "Iniciar sesión"
+  },
+  "pt-BR": {
+    "email": "E-mail",
+    "errors": {
+      "auth/invalid-email": "E-mail e/ou senha incorretos",
+      "auth/network-request-failed": "Falha na solicitação de rede",
+      "auth/user-disabled": "E-mail e/ou senha incorretos",
+      "auth/user-not-found": "E-mail e/ou senha incorretos",
+      "auth/wrong-password": "E-mail e/ou senha incorretos"
+    },
+    "password": "Senha",
+    "reset": "Esqueceu a senha?",
+    "signIn": "Entrar",
+    "title": "Entrar"
+  }
+}

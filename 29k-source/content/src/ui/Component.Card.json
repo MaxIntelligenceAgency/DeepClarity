@@ -1,0 +1,26 @@
+{
+  "en": {
+    "myJourneyTag": "Interested",
+    "interested": "Interested"
+  },
+  "pt-PT": {
+    "myJourneyTag": "Interessada/o",
+    "interested": "Interessada/o"
+  },
+  "sv": {
+    "myJourneyTag": "Intresserad",
+    "interested": "Intresserad"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "interested": "Interesado/a",
+    "myJourneyTag": "Interesado/a"
+  },
+  "pt-BR": {
+    "interested": "Interessado",
+    "myJourneyTag": "Interessado"
+  }
+}

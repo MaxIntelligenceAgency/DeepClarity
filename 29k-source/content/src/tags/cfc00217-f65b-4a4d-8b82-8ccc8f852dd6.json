@@ -1,0 +1,47 @@
+{
+  "en": {
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "name": "Mindfulness",
+    "published": true
+  },
+  "pt-PT": {
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "name": "Presença",
+    "published": true
+  },
+  "sv": {
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "name": "Mindfulness",
+    "published": true
+  },
+  "ja": {
+    "name": "マインドフルネス",
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "published": true
+  },
+  "da": {
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "name": "Opmærksomhed",
+    "published": true
+  },
+  "cs": {
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "name": "Všímavost",
+    "published": true
+  },
+  "nl": {
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "name": "Mindfulness",
+    "published": true
+  },
+  "es": {
+    "name": "Atención plena",
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "published": true
+  },
+  "pt-BR": {
+    "name": "Atenção plena",
+    "id": "cfc00217-f65b-4a4d-8b82-8ccc8f852dd6",
+    "published": true
+  }
+}

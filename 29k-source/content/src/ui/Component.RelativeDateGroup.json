@@ -1,0 +1,41 @@
+{
+  "en": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This week",
+    "nextWeek": "Next week",
+    "upcoming": "Upcoming"
+  },
+  "pt-PT": {
+    "today": "Hoje",
+    "tomorrow": "Amanhã",
+    "thisWeek": "Esta semana",
+    "nextWeek": "Próxima semana",
+    "upcoming": "Proximamente"
+  },
+  "sv": {
+    "today": "Idag",
+    "tomorrow": "I morgon",
+    "thisWeek": "I veckan",
+    "nextWeek": "Nästa vecka",
+    "upcoming": "Längre fram"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "nextWeek": "La próxima semana",
+    "thisWeek": "Esta semana",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "upcoming": "Próximamente"
+  },
+  "pt-BR": {
+    "nextWeek": "Próxima semana",
+    "thisWeek": "Esta semana",
+    "today": "Hoje",
+    "tomorrow": "Amanhã",
+    "upcoming": "Próximos"
+  }
+}

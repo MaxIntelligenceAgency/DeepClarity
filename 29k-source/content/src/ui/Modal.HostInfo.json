@@ -1,0 +1,36 @@
+{
+  "en": {
+    "publicSessions": "With\nAnyone",
+    "privateSessions": "With\nFriends",
+    "sessions": "Upcoming sessions",
+    "noUpcomingSessions": "🌱 No planned sessions."
+  },
+  "pt-PT": {
+    "privateSessions": "Com Amigos",
+    "publicSessions": "Pública",
+    "sessions": "Próximas sessões",
+    "noUpcomingSessions": "🌱 Não há sessões planeadas."
+  },
+  "sv": {
+    "publicSessions": "Med alla",
+    "privateSessions": "Med vänner",
+    "sessions": "Kommande sessioner",
+    "noUpcomingSessions": "🌱 inga sessioner planerade."
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "noUpcomingSessions": "🌱 No hay sesiones planificadas.",
+    "privateSessions": "Con amigos/as",
+    "publicSessions": "Con otras personas",
+    "sessions": "Próximas sesiones"
+  },
+  "pt-BR": {
+    "noUpcomingSessions": "🌱 Nenhuma sessão planejada.",
+    "privateSessions": "Com\r\nAmigos",
+    "publicSessions": "Com\r\nQualquer pessoa",
+    "sessions": "Próximas sessões"
+  }
+}

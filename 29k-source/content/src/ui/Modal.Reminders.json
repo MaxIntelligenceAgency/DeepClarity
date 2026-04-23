@@ -1,0 +1,91 @@
+{
+  "en": {
+    "title": "Reminders",
+    "sessionRemindersText": "Reminds you about upcoming sessions 10 minutes before they start.",
+    "weekday": "Weekday",
+    "time": "Time",
+    "intervals": {
+      "daily": "Every day",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "updateButton": "Update reminders"
+  },
+  "pt-PT": {
+    "title": "Lembretes",
+    "sessionRemindersText": "Lembrete para 10 minutos antes do início de sessão.",
+    "weekday": "Dia da semana",
+    "time": "Hora",
+    "intervals": {
+      "daily": "Todos os dias",
+      "monday": "2ª",
+      "tuesday": "3ª",
+      "wednesday": "4ª",
+      "thursday": "5ª",
+      "friday": "6ª",
+      "saturday": "Sábado",
+      "sunday": "Domingo"
+    },
+    "updateButton": "Atualizar lembretes"
+  },
+  "sv": {
+    "title": "Notiser",
+    "sessionRemindersText": "Påminner dig om kommande sessioner 10 minuter före start.",
+    "weekday": "Veckodag",
+    "time": "Tid",
+    "intervals": {
+      "daily": "Varje dag",
+      "monday": "Måndag",
+      "tuesday": "Tisdag",
+      "wednesday": "Onsdag",
+      "thursday": "Torsdag",
+      "friday": "Fredag",
+      "saturday": "Lördag",
+      "sunday": "Söndag"
+    },
+    "updateButton": "Uppdatera notiser"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "intervals": {
+      "daily": "Cada día",
+      "friday": "Viernes",
+      "monday": "Lunes",
+      "saturday": "Sábado",
+      "sunday": "Domingo",
+      "thursday": "Jueves",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles"
+    },
+    "sessionRemindersText": "Te recuerda sobre las próximas sesiones 10 minutos antes de que empiecen.",
+    "time": "Hora",
+    "title": "Recordatorios",
+    "updateButton": "Actualizar recordatorios",
+    "weekday": "Día laborable"
+  },
+  "pt-BR": {
+    "intervals": {
+      "daily": "Todos os dias",
+      "friday": "Sexta-feira",
+      "monday": "Segunda-feira",
+      "saturday": "Sábado",
+      "sunday": "Domingo",
+      "thursday": "Quinta-feira",
+      "tuesday": "Terça-feira",
+      "wednesday": "Quarta-feira"
+    },
+    "sessionRemindersText": "Lembra você sobre as próximas sessões 10 minutos antes de começarem.",
+    "time": "Horário",
+    "title": "Lembretes",
+    "updateButton": "Atualizar lembretes",
+    "weekday": "Dia da semana"
+  }
+}

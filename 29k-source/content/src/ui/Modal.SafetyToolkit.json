@@ -1,0 +1,57 @@
+{
+  "en": {
+    "title": "Safety toolkit",
+    "actions": {
+      "faq": "Frequently asked questions",
+      "calmDown": "Calm down",
+      "report": "Report",
+      "helplines": "Emergency helplines"
+    },
+    "helplines_url": "https://wiki.29k.org/emergency-helplines",
+    "faq_url": "https://wiki.29k.org/29k-sessions-faq"
+  },
+  "pt-PT": {
+    "title": "Kit de segurança",
+    "actions": {
+      "faq": "Perguntas frequentes",
+      "calmDown": "Acalmar",
+      "report": "Reportar",
+      "helplines": "Linhas de Apoio"
+    },
+    "helplines_url": "https://www.joseneves.org/page/29-k-fjn-linhas-de-ajuda",
+    "faq_url": "https://www.joseneves.org/faqs/faqs-29-k-fjn"
+  },
+  "sv": {
+    "title": "Trygghetsfunktioner",
+    "actions": {
+      "faq": "Vanliga frågor – FAQ",
+      "calmDown": "Varva ner",
+      "report": "Anmäl",
+      "helplines": "Hjälplinjer"
+    },
+    "helplines_url": "https://wiki.29k.org/emergency-helplines",
+    "faq_url": "https://wiki.29k.org/29k-sessions-faq"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "actions": {
+      "calmDown": "Relájate",
+      "faq": "Preguntas frecuentes",
+      "helplines": "Teléfonos de emergencia",
+      "report": "Informar"
+    },
+    "title": "Kit de seguridad"
+  },
+  "pt-BR": {
+    "actions": {
+      "calmDown": "Acalme-se",
+      "faq": "Perguntas frequentes",
+      "helplines": "Linhas de ajuda de emergência",
+      "report": "Relatar"
+    },
+    "title": "Kit de segurança"
+  }
+}

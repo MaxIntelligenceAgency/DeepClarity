@@ -1,0 +1,46 @@
+{
+  "en": {
+    "header": "Your reflection",
+    "description": "Who can see your post?",
+    "publicLabel": "Everyone, as {{displayName}}",
+    "anonymousLabel": "Everyone, anonymously",
+    "privateLabel": "Only me",
+    "submitCta": "Post"
+  },
+  "pt-PT": {
+    "header": "A tua reflexão",
+    "description": "Quem pode ver a tua reflexão?",
+    "privateLabel": "Só eu",
+    "submitCta": "Submeter",
+    "publicLabel": "Todos, como {{displayName}}",
+    "anonymousLabel": "Todos de forma anónima"
+  },
+  "sv": {
+    "header": "Din reflektion",
+    "description": "Vem kan se din reflektion?",
+    "publicLabel": "Alla, som {{displayName}}",
+    "anonymousLabel": "Alla, anonymt",
+    "privateLabel": "Bara jag",
+    "submitCta": "Skicka"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "anonymousLabel": "Todo el mundo, de forma anónima",
+    "description": "¿Quién puede ver tu publicación?",
+    "header": "Tu reflexión",
+    "privateLabel": "Solo yo",
+    "publicLabel": "Cualquier persona, como {{displayName}}",
+    "submitCta": "Publicar"
+  },
+  "pt-BR": {
+    "anonymousLabel": "Todos, anonimamente",
+    "description": "Quem pode ver sua publicação?",
+    "header": "Sua reflexão",
+    "privateLabel": "Só eu",
+    "publicLabel": "Todos, como {{displayName}}",
+    "submitCta": "Publicar"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "en": {
+    "downloading": {
+      "title": "Downloading update",
+      "text": "Please hang tight. We're soon done."
+    },
+    "install": {
+      "title": "Install update",
+      "text": "",
+      "dismiss_button": "Not now",
+      "restart_button": "Restart to install"
+    }
+  },
+  "pt-PT": {
+    "downloading": {
+      "title": "Descarregar atualização importante",
+      "text": "Desculpa o incómodo - por favor aguarda."
+    },
+    "install": {
+      "title": "Instalar atualização importante",
+      "text": "Reinicia a aplicação para instalar a versão mais recente.",
+      "dismiss_button": "Agora não",
+      "restart_button": "Reiniciar"
+    }
+  },
+  "sv": {
+    "downloading": {
+      "title": "Laddar ner uppdatering",
+      "text": "Ursäkta besväret – snart klart."
+    },
+    "install": {
+      "title": "Installera uppdatering",
+      "text": "Starta om appen för att installera den senaste versionen.",
+      "dismiss_button": "Inte nu",
+      "restart_button": "Starta om"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "downloading": {
+      "text": "Por favor, espera un momento. Estamos casi terminando.",
+      "title": "Bajando actualización"
+    },
+    "install": {
+      "dismiss_button": "Ahora no",
+      "restart_button": "Reiniciar para instalar",
+      "title": "Instalar actualización"
+    }
+  },
+  "pt-BR": {
+    "downloading": {
+      "text": "Por favor, aguarde um momento. Já estamos quase terminando.",
+      "title": "Baixando atualização"
+    },
+    "install": {
+      "dismiss_button": "Agora não",
+      "restart_button": "Reiniciar para instalar",
+      "title": "Instalar atualização"
+    }
+  }
+}

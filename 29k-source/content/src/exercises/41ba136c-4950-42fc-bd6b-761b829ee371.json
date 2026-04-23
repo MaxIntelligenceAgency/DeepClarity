@@ -1,0 +1,451 @@
+{
+  "en": {
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Welcome to this session, hosted by me, x. We will work for around 30 minutes on how to choose our actions deliberately. We’ll do an introduction, see a video, reflect and then finally share what we experienced."
+          },
+          {
+            "text": "Lets start with a moment of focus on our breathing.\n\n> Inhale & exhale slowly 3 times.\n\nNow it’s time for a mini check-in. What brought you here today? Please answer in two-three words."
+          },
+          {
+            "text": "X, would you like to start ?\n\n> Let everyone in the session, including yourself, check in one by one.\n\nThank you all for checking in. Let’s continue with the exercise."
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "hostNotes": [
+          {
+            "text": "Much of human behavior is automatic responses. That's one of the reasons we occasionally say and do things we later regret - emotions and thoughts can be so strong that we feel like we can't control them."
+          },
+          {
+            "text": "A useful strategy to act more value-based in any given situation is the STOP-skill.\n\n* **STOP** consists of:\n* **S** = stop\n* **T**= take a step back\n* **O** = observe\n* **P** = proceed mindfully"
+          },
+          {
+            "text": "Let’s take a look at this video with 29k psychologist Jenny\n\n> Press play to start the video"
+          }
+        ]
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Now let’s take 2 minutes to reflect.\n\nWhat area of your life could benefit from you using the STOP-skill? \n\nIn what way, how will you go about it?"
+          },
+          {
+            "text": "If you want to, you can take notes on a piece of paper or just mental notes in your head. And remember, there is no right or wrong.\n\n2 minutes starting now.\n\n> Press play to start the timer"
+          },
+          {
+            "text": "Okay, that’s 2 minutes and it’s time to move on."
+          }
+        ],
+        "content": {
+          "heading": "In what life area to use STOP-skill?",
+          "text": "How?"
+        }
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Now we are getting into the sharing part. What difference could the Stop-skill make in your life? We have three rules for sharing:\n\n1. **What is said in here, stays in here.**\n2. **All you need to do is listen.** There is no fixing, helping or advice-giving needed. We are just showing up and exploring what ourselves and others are going through."
+          },
+          {
+            "text": "3. **Everything on the inside is okay.** Anger, love, hatred, sadness. Whatever shows up. No wrongs, no rights. It is what it is.\n\nThere will be a timer set for 2 minutes as an indicator. If you don’t want to share you can always say ‘pass’."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone (or as many as you got time for) share one by one. Press play to start the timer. Re-start for each new sharing.\n\nThank you so much everyone."
+          }
+        ],
+        "content": {
+          "heading": "What difference could the STOP-skill do for you?"
+        },
+        "id": "sharing"
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Well done. By stopping, taking a step back, observing and proceeding mindfully we can choose our actions. The STOP-skill can help us be less impulsive. Instead, we can act in ways that are important to us."
+          },
+          {
+            "text": "If you’re up for it, you can continue what we started here today with a mission. The coming week, when you notice an impulse to lash out or act impulsively, see if you can catch yourself in that process and try to use the STOP skill. Notice if it makes any difference in your life."
+          },
+          {
+            "text": "Before we leave this space let’s do a mini check-out.\n\nHow do you feel now about what brought you here today? Anything shifted? Please answer in two-three words."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone in the session check out one by one.\n\nThank you all for checking out and for joining this session today.\n\n> Finish session to send everyone off to the exit experience."
+          }
+        ]
+      }
+    ],
+    "theme": {
+      "textColor": "#2AE2D7"
+    },
+    "hidden": true,
+    "name": "STOP-skill",
+    "live": true,
+    "published": true,
+    "asyncDuration": 10,
+    "liveDuration": 30,
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Start the session when you're ready to go"
+        }
+      ]
+    },
+    "tags": [
+      "9c2c08a9-7dc6-4058-bc78-016d0eb00614"
+    ],
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371",
+    "description": "Sometimes we do things we regret. In this exercise we practice taking a step back, observe and choose which way to go. Choosing our actions can help us feel more true to ourselves and improve our relationships."
+  },
+  "pt-PT": {
+    "published": false,
+    "hidden": false,
+    "theme": {
+      "textColor": "#2AE2D7"
+    },
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Start the session when you're ready to go"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Welcome. I am X and today we will work for around 30 minutes on xx\n\nWe’ll be doing xx ex. meditation followed by time for reflection and sharing with each other."
+          },
+          {
+            "text": "Let’s start with a mini check-in. How are you feeling right now? Please answer in two-three words. X, would you like to start?\n\n> Let everyone in the session, including yourself, check in one by one.\n\nThank you all for checking in. Let’s get started."
+          }
+        ]
+      },
+      {
+        "type": "content"
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Now we’ll take 1 minute to reflect on our own.\n\nxxMain question\n\nxxFurther explanations of main question if needed"
+          },
+          {
+            "text": "You can take notes on a piece of paper or just mental notes in your head. And there is no right or wrong here, our answers are our own. 1 minute starting now.\n\n> Press play to start the timer.\n\nThat’s 1 minute and it’s time to move on."
+          }
+        ]
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Now we are getting into the sharing part. We have three rules for sharing:\n\n1. **What is said in here, stays in here.**\n2. **All you need to do is listen.** There is no fixing, helping or advice-giving needed. We are just showing up and exploring what ourselves and others are going through."
+          },
+          {
+            "text": "3. **Everything on the inside is okay.** Anger, love, hatred, sadness. Whatever shows up. No wrongs, no rights. It is what it is.\n\nThere will be a timer set for 2 minutes as an indicator. If you don’t want to share you can always say ‘pass’."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone (or as many as you got time for) share one by one. Press play to start the timer. Re-start for each new sharing.\n\nThank you so much everyone."
+          }
+        ]
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Well done. if you’re up for it, you can continue what we started here today with a mission to bring this into your everyday life.\n\nxx mission description"
+          },
+          {
+            "text": "Before we leave this space let’s do a mini check-out. \n\nHow are you feeling right now? Has anything shifted? Please answer in two-three words."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone in the session check out one by one.\n\nThank you all for checking out and for joining this session today.\n\n> Finish session to send everyone off to the exit experience."
+          }
+        ]
+      }
+    ],
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371",
+    "asyncDuration": 10,
+    "liveDuration": 30,
+    "tags": [
+      "9c2c08a9-7dc6-4058-bc78-016d0eb00614"
+    ]
+  },
+  "sv": {
+    "published": false,
+    "hidden": false,
+    "theme": {
+      "textColor": "#2AE2D7"
+    },
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Start the session when you're ready to go"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Welcome. I am X and today we will work for around 30 minutes on xx\n\nWe’ll be doing xx ex. meditation followed by time for reflection and sharing with each other."
+          },
+          {
+            "text": "Let’s start with a mini check-in. How are you feeling right now? Please answer in two-three words. X, would you like to start?\n\n> Let everyone in the session, including yourself, check in one by one.\n\nThank you all for checking in. Let’s get started."
+          }
+        ]
+      },
+      {
+        "type": "content"
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Now we’ll take 1 minute to reflect on our own.\n\nxxMain question\n\nxxFurther explanations of main question if needed"
+          },
+          {
+            "text": "You can take notes on a piece of paper or just mental notes in your head. And there is no right or wrong here, our answers are our own. 1 minute starting now.\n\n> Press play to start the timer.\n\nThat’s 1 minute and it’s time to move on."
+          }
+        ]
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Now we are getting into the sharing part. We have three rules for sharing:\n\n1. **What is said in here, stays in here.**\n2. **All you need to do is listen.** There is no fixing, helping or advice-giving needed. We are just showing up and exploring what ourselves and others are going through."
+          },
+          {
+            "text": "3. **Everything on the inside is okay.** Anger, love, hatred, sadness. Whatever shows up. No wrongs, no rights. It is what it is.\n\nThere will be a timer set for 2 minutes as an indicator. If you don’t want to share you can always say ‘pass’."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone (or as many as you got time for) share one by one. Press play to start the timer. Re-start for each new sharing.\n\nThank you so much everyone."
+          }
+        ]
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Well done. if you’re up for it, you can continue what we started here today with a mission to bring this into your everyday life.\n\nxx mission description"
+          },
+          {
+            "text": "Before we leave this space let’s do a mini check-out. \n\nHow are you feeling right now? Has anything shifted? Please answer in two-three words."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone in the session check out one by one.\n\nThank you all for checking out and for joining this session today.\n\n> Finish session to send everyone off to the exit experience."
+          }
+        ]
+      }
+    ],
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371",
+    "asyncDuration": 10,
+    "liveDuration": 30,
+    "tags": [
+      "9c2c08a9-7dc6-4058-bc78-016d0eb00614"
+    ]
+  },
+  "ja": {
+    "published": false,
+    "hidden": false,
+    "theme": {
+      "textColor": "#2AE2D7"
+    },
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": "> Start the session when you're ready to go"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Welcome. I am X and today we will work for around 30 minutes on xx\n\nWe’ll be doing xx ex. meditation followed by time for reflection and sharing with each other."
+          },
+          {
+            "text": "Let’s start with a mini check-in. How are you feeling right now? Please answer in two-three words. X, would you like to start?\n\n> Let everyone in the session, including yourself, check in one by one.\n\nThank you all for checking in. Let’s get started."
+          }
+        ]
+      },
+      {
+        "type": "content"
+      },
+      {
+        "type": "reflection",
+        "hostNotes": [
+          {
+            "text": "Now we’ll take 1 minute to reflect on our own.\n\nxxMain question\n\nxxFurther explanations of main question if needed"
+          },
+          {
+            "text": "You can take notes on a piece of paper or just mental notes in your head. And there is no right or wrong here, our answers are our own. 1 minute starting now.\n\n> Press play to start the timer.\n\nThat’s 1 minute and it’s time to move on."
+          }
+        ]
+      },
+      {
+        "type": "sharing",
+        "hostNotes": [
+          {
+            "text": "Now we are getting into the sharing part. We have three rules for sharing:\n\n1. **What is said in here, stays in here.**\n2. **All you need to do is listen.** There is no fixing, helping or advice-giving needed. We are just showing up and exploring what ourselves and others are going through."
+          },
+          {
+            "text": "3. **Everything on the inside is okay.** Anger, love, hatred, sadness. Whatever shows up. No wrongs, no rights. It is what it is.\n\nThere will be a timer set for 2 minutes as an indicator. If you don’t want to share you can always say ‘pass’."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone (or as many as you got time for) share one by one. Press play to start the timer. Re-start for each new sharing.\n\nThank you so much everyone."
+          }
+        ]
+      },
+      {
+        "type": "host",
+        "hostNotes": [
+          {
+            "text": "Well done. if you’re up for it, you can continue what we started here today with a mission to bring this into your everyday life.\n\nxx mission description"
+          },
+          {
+            "text": "Before we leave this space let’s do a mini check-out. \n\nHow are you feeling right now? Has anything shifted? Please answer in two-three words."
+          },
+          {
+            "text": "Who would like to start?\n\n> Let everyone in the session check out one by one.\n\nThank you all for checking out and for joining this session today.\n\n> Finish session to send everyone off to the exit experience."
+          }
+        ]
+      }
+    ],
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371",
+    "asyncDuration": 10,
+    "liveDuration": 30,
+    "tags": [
+      "9c2c08a9-7dc6-4058-bc78-016d0eb00614"
+    ]
+  },
+  "da": {
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371"
+  },
+  "cs": {
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371"
+  },
+  "nl": {
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371"
+  },
+  "es": {
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371"
+  },
+  "pt-BR": {
+    "description": "Às vezes fazemos coisas das quais nos arrependemos. Neste exercício, praticamos dar um passo para trás, observar e escolher qual caminho seguir. Escolher nossas ações pode nos ajudar a nos sentirmos mais fiéis a nós mesmos e a melhorar nossos relacionamentos.",
+    "introPortal": {
+      "hostNotes": [
+        {
+          "text": ">Comece a sessão quando estiver pronto para seguir"
+        }
+      ]
+    },
+    "name": "Habilidade STOP",
+    "slides": [
+      {
+        "hostNotes": [
+          {
+            "text": "Bem-vindo(a) a esta sessão, conduzida por mim, X. Vamos trabalhar durante cerca de 30 minutos sobre como escolher nossas ações de forma deliberada. Faremos uma introdução, assistiremos a um vídeo, refletiremos e, por fim, compartilharemos o que experimentamos."
+          },
+          {
+            "text": "Vamos começar com um momento de foco na respiração.\n\n> Inspire e expire lentamente 3 vezes.\n\nAgora é hora de um mini check-in. O que te trouxe aqui hoje? Por favor, responda em duas ou três palavras."
+          },
+          {
+            "text": "X, você gostaria de começar?\n\n> Deixe todos na sessão, incluindo você mesmo, fazerem o check-in um por um.\n\nObrigado a todos por compartilharem. Vamos seguir para o exercício."
+          }
+        ],
+        "type": "host"
+      },
+      {
+        "hostNotes": [
+          {
+            "text": "Grande parte do comportamento humano é composta por respostas automáticas. Isso explica por que, às vezes, dizemos e fazemos coisas das quais nos arrependemos depois — emoções e pensamentos podem ser tão intensos que sentimos que não conseguimos controlá-los."
+          },
+          {
+            "text": "Uma estratégia útil para agir de forma mais baseada em valores em qualquer situação é a habilidade STOP.\n\n* **STOP** consiste em:\n* **S** = pare  \n* **T** = tome distância  \n* **O** = observe  \n* **P** = prossiga com atenção plena"
+          },
+          {
+            "text": "Vamos assistir a este vídeo com a psicóloga Jenn da 29k\n\n> Aperte play para iniciar o vídeo."
+          }
+        ],
+        "type": "content"
+      },
+      {
+        "content": {
+          "heading": "Em que área da vida usar a habilidade STOP?",
+          "text": "Como?"
+        },
+        "hostNotes": [
+          {
+            "text": "Agora vamos tirar 2 minutos para refletir.\n\nEm que área da sua vida o uso da habilidade STOP poderia trazer benefícios?\n\nDe que forma, e como você pretende colocar isso em prática?"
+          },
+          {
+            "text": "Se quiser, você pode anotar em um papel ou apenas guardar mentalmente. E lembre-se: não existe certo ou errado.\n\n2 minutos a partir de agora.\n\n> Aperte play para iniciar o cronômetro."
+          },
+          {
+            "text": "Certo, passaram-se 2 minutos e é hora de seguir em frente."
+          }
+        ],
+        "type": "reflection"
+      },
+      {
+        "content": {
+          "heading": "Que diferença a habilidade STOP poderia fazer para você?"
+        },
+        "hostNotes": [
+          {
+            "text": "Agora estamos entrando na parte de compartilhamento. Temos três regras para o compartilhamento:\n\n1. **O que é dito aqui, fica aqui.**\n2. **Tudo o que você precisa fazer é ouvir.** Não é necessário consertar, ajudar ou dar conselhos. Estamos apenas presentes e explorando o que nós e os outros estamos vivenciando."
+          },
+          {
+            "text": "3. **Tudo o que você sentir é válido.** Raiva, amor, ódio, tristeza. O que surgir. Não existe certo ou errado. \n\nO cronômetro será ajustado para 2 minutos como referência. Se você não quiser compartilhar, pode simplesmente dizer “passo”.\n\n"
+          },
+          {
+            "text": "Quem gostaria de começar?\n\n> Deixe todos (ou o maior número possível, conforme o tempo permitir) compartilharem um por um. Aperte play para iniciar o cronômetro. Reinicie para cada novo compartilhamento.\n\nMuito obrigado a todos.\n\n"
+          }
+        ],
+        "type": "sharing",
+        "id": "sharing"
+      },
+      {
+        "hostNotes": [
+          {
+            "text": "Muito bem. Ao parar, dar um passo para trás, observar e seguir adiante de forma consciente, podemos escolher nossas ações. A habilidade STOP pode nos ajudar a ser menos impulsivos. Assim, conseguimos agir de acordo com o que realmente é importante para nós."
+          },
+          {
+            "text": "Se quiser, você pode continuar o que começamos aqui hoje com uma sugestão . Na próxima semana, sempre que perceber um impulso de reagir de forma impulsiva ou agressiva, tente se observar nesse momento e utilize a habilidade STOP. Veja se isso faz alguma diferença na sua vida."
+          },
+          {
+            "text": "Antes de encerrarmos este espaço, vamos fazer um mini check-out.\n\nComo você se sente agora em relação ao que te trouxe aqui hoje? Algo mudou? Por favor, responda em duas ou três palavras."
+          },
+          {
+            "text": "Quem gostaria de começar?\n\n> Deixe todos (ou o maior número possível, conforme o tempo permitir) compartilharem um por um. Aperte play para iniciar o cronômetro. Reinicie para cada novo compartilhamento.\n\nMuito obrigado a todos.\n\n"
+          }
+        ],
+        "type": "host"
+      }
+    ],
+    "id": "41ba136c-4950-42fc-bd6b-761b829ee371",
+    "theme": {
+      "textColor": "#2AE2D7"
+    },
+    "hidden": true,
+    "live": true,
+    "published": false,
+    "asyncDuration": 10,
+    "liveDuration": 30,
+    "tags": [
+      "9c2c08a9-7dc6-4058-bc78-016d0eb00614"
+    ]
+  }
+}

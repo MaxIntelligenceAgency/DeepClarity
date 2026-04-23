@@ -1,0 +1,51 @@
+{
+  "en": {
+    "startHeading": "Do session...",
+    "coCreatorsHeading": "Co-created with",
+    "startCta": "Start",
+    "mode": {
+      "async": "On my own",
+      "live": "As host"
+    }
+  },
+  "pt-PT": {
+    "startHeading": "Fazer sessão...",
+    "coCreatorsHeading": "Co-criada com",
+    "startCta": "Iniciar",
+    "mode": {
+      "async": "Contigo",
+      "live": "Como moderador/a"
+    }
+  },
+  "sv": {
+    "startHeading": "Starta session...",
+    "coCreatorsHeading": "Skapad tillsammans med",
+    "startCta": "Starta",
+    "mode": {
+      "async": "Själv",
+      "live": "Som värd"
+    }
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "coCreatorsHeading": "Cocreado con",
+    "startCta": "Empieza",
+    "mode": {
+      "async": "Por mi cuenta",
+      "live": "Como anfitrión/a"
+    },
+    "startHeading": "Hacer sesión..."
+  },
+  "pt-BR": {
+    "coCreatorsHeading": "Co-criado com",
+    "mode": {
+      "async": "Sozinho(a)",
+      "live": "Como anfitrião"
+    },
+    "startCta": "Iniciar",
+    "startHeading": "Fazer sessão..."
+  }
+}

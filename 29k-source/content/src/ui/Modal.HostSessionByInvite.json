@@ -1,0 +1,31 @@
+{
+  "en": {
+    "description": "{{hostName}} would like you to host this session instead of them.",
+    "confirm": "Accept",
+    "cancel": "Decline"
+  },
+  "pt-PT": {
+    "description": "{{hostName}} gostaria que moderasses esta sessão em sua vez.",
+    "confirm": "Aceitar",
+    "cancel": "Rejeitar"
+  },
+  "sv": {
+    "description": "{{hostName}} vill att du är värd för denna session istället för dem.",
+    "confirm": "Acceptera",
+    "cancel": "Tacka nej"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "cancel": "Rechazar",
+    "confirm": "Aceptar",
+    "description": "{{hostName}} quiere que tú organices esta sesión en lugar de él/ella."
+  },
+  "pt-BR": {
+    "cancel": "Recusar",
+    "confirm": "Aceitar",
+    "description": "{{hostName}} gostaria que você hospedasse esta sessão no lugar dele(a)."
+  }
+}

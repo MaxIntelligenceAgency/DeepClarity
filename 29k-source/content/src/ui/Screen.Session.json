@@ -1,0 +1,110 @@
+{
+  "en": {
+    "nameSuffix": "You",
+    "endButton": "Finish session",
+    "controls": {
+      "start": "Start",
+      "next": "Next",
+      "prev": "Back",
+      "end": "Finish"
+    },
+    "notifications": {
+      "joined": "{{name}} joined",
+      "left": "{{name}} left",
+      "networkQuality": "Unrealiable network connection",
+      "muted": "You are muted"
+    }
+  },
+  "pt-PT": {
+    "nameSuffix": "Tu",
+    "endButton": "Terminar sessão",
+    "controls": {
+      "start": "Iniciar",
+      "next": "Próximo",
+      "prev": "Voltar",
+      "end": "Terminar"
+    },
+    "notifications": {
+      "joined": "{{name}} juntou-se",
+      "left": "{{name}} saiu",
+      "networkQuality": "Ligação de rede instável",
+      "muted": "Estás sem som"
+    }
+  },
+  "sv": {
+    "nameSuffix": "Du",
+    "endButton": "Avsluta",
+    "controls": {
+      "start": "Starta",
+      "next": "Nästa",
+      "prev": "Tillbaka",
+      "end": "Avsluta"
+    },
+    "notifications": {
+      "joined": "{{name}} gick med",
+      "left": "{{name}} lämnade",
+      "networkQuality": "Instabilt nätverk",
+      "muted": "Din mikrofon är av"
+    }
+  },
+  "ja": {},
+  "da": {
+    "controls": {
+      "end": "Afslut",
+      "next": "Næste",
+      "prev": "Tilbage",
+      "start": "Start"
+    },
+    "endButton": "Afslut session"
+  },
+  "cs": {
+    "controls": {
+      "end": "Dokončit",
+      "next": "Další",
+      "prev": "Zpět",
+      "start": "Začít"
+    },
+    "endButton": "Ukončit sezení"
+  },
+  "nl": {
+    "controls": {
+      "end": "Afronden",
+      "next": "Volgende",
+      "prev": "Terug",
+      "start": "Starten"
+    },
+    "endButton": "Sessie afronden"
+  },
+  "es": {
+    "controls": {
+      "end": "Terminar",
+      "next": "Próxima",
+      "prev": "Regresar",
+      "start": "Empezar"
+    },
+    "endButton": "Terminar sesión",
+    "nameSuffix": "Tú",
+    "notifications": {
+      "joined": "{{name}} se ha unido",
+      "left": "{{name}} ha salido",
+      "muted": "Estás en silencio",
+      "networkQuality": "Conexión de red inestable"
+    }
+  },
+  "pt-BR": {
+    "controls": {
+      "end": "Finalizar",
+      "next": "Próximo",
+      "prev": "Voltar",
+      "start": "Iniciar"
+    },
+    "endButton": "Finalizar sessão",
+    "nameSuffix": "Você",
+    "notifications": {
+      "joined": "{{name}} entrou",
+      "left": "{{name}} saiu",
+      "muted": "Você está no mudo",
+      "networkQuality": "Conexão de rede instável"
+    }
+  }
+}

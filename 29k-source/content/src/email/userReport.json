@@ -1,0 +1,47 @@
+{
+  "en": {
+    "subject": "Your feedback to Aware",
+    "subject_feedback": "Your feedback to Aware",
+    "subject_misbehaviour": "Your report to Aware",
+    "subject_tech_issue": "Your tech issue report to Aware",
+    "body": "This message was sent from the Aware app:"
+  },
+  "sv": {
+    "subject": "Din feedback till Aware",
+    "subject_feedback": "Din feedback till Aware",
+    "subject_misbehaviour": "Din rapport till Aware",
+    "subject_tech_issue": "Ditt teknikproblem med Aware",
+    "body": "Det här meddelandet skickades från Aware-appen:"
+  },
+  "pt-PT": {
+    "subject": "Os teus comentários para a Aware",
+    "subject_feedback": "Os teus comentários para a Aware",
+    "subject_misbehaviour": "O teu relatório de mau comportamento para a Aware",
+    "subject_tech_issue": "O teu relatório de problemas técnicos para a Aware",
+    "body": "Esta mensagem foi enviada da aplicação Aware:"
+  },
+  "ja": {
+    "body": "このメッセージはAwareアプリから送信されました",
+    "subject": "フィードバックを送信",
+    "subject_feedback": "フィードバックを送信",
+    "subject_misbehaviour": "問題を報告する",
+    "subject_tech_issue": "技術的問題を報告する"
+  },
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "body": "Este mensaje fue enviado desde la app Aware:",
+    "subject": "Tu opinión para Aware",
+    "subject_feedback": "Tu opinión para Aware",
+    "subject_misbehaviour": "Tu informe para Aware",
+    "subject_tech_issue": "Tu informe de problemas técnicos para Aware"
+  },
+  "pt-BR": {
+    "body": "Esta mensagem foi enviada pelo aplicativo Aware:",
+    "subject": "Seu feedback para o Aware",
+    "subject_feedback": "Seu feedback para o Aware",
+    "subject_misbehaviour": "Seu relatório para o Aware",
+    "subject_tech_issue": "Seu relatório de problema técnico para o Aware"
+  }
+}

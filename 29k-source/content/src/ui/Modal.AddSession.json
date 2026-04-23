@@ -1,0 +1,29 @@
+{
+  "en": {
+    "title": "",
+    "create": "Create session",
+    "join": "Join session"
+  },
+  "pt-PT": {
+    "title": "",
+    "create": "Criar sessão",
+    "join": "Juntar-me a uma sessão"
+  },
+  "sv": {
+    "title": "",
+    "create": "Lägg till session",
+    "join": "Gå med i session"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "create": "Crear sesión",
+    "join": "Entrar a la sesión"
+  },
+  "pt-BR": {
+    "create": "Criar sessão",
+    "join": "Entrar na sessão"
+  }
+}

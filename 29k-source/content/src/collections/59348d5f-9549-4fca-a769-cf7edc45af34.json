@@ -1,0 +1,224 @@
+{
+  "en": {
+    "hidden": false,
+    "locked": false,
+    "name": "Navigating life together",
+    "published": true,
+    "sortOrder": 1,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1744727654/Images/Circleofgrowthill_d1obkb.jpg"
+      }
+    },
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "description": "Deepen your self-understanding, navigate challenges, and create more meaning. A group-based program to strengthen your relationship with yourself and each other."
+  },
+  "pt-PT": {
+    "hidden": false,
+    "locked": false,
+    "name": "Percorrer a vida juntos",
+    "published": true,
+    "sortOrder": 1,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1744727654/Images/Circleofgrowthill_d1obkb.jpg"
+      }
+    },
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "description": "Aprofunda o teu autoconhecimento, ultrapassa desafios e cria mais significado. Um programa em grupo para fortalecer a tua relação contigo próprio e com os outros."
+  },
+  "sv": {
+    "hidden": false,
+    "locked": false,
+    "name": "Tillsammans i livet",
+    "published": true,
+    "sortOrder": 1,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1744727654/Images/Circleofgrowthill_d1obkb.jpg"
+      }
+    },
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "description": "Få en djupare förståelse för dig själv, lär dig hantera utmaningar och skapa mer mening i vardagen. Ett program att göra tillsammans med andra, för att stärka relationen till dig själv och varandra."
+  },
+  "ja": {
+    "published": false,
+    "hidden": false,
+    "locked": false,
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "sortOrder": 1,
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "card": {}
+  },
+  "da": {
+    "published": false,
+    "hidden": false,
+    "locked": false,
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "sortOrder": 1,
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "card": {}
+  },
+  "cs": {
+    "published": false,
+    "hidden": false,
+    "locked": false,
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "sortOrder": 1,
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "card": {}
+  },
+  "nl": {
+    "published": false,
+    "hidden": false,
+    "locked": false,
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "sortOrder": 1,
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "card": {}
+  },
+  "es": {
+    "published": false,
+    "hidden": false,
+    "locked": false,
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "sortOrder": 1,
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ],
+    "card": {}
+  },
+  "pt-BR": {
+    "description": "Aprofunde seu autoconhecimento, enfrente desafios e crie mais sentido. Um programa em grupo para fortalecer seu relacionamento consigo mesmo e com os outros.",
+    "name": "Navegando a vida juntos",
+    "id": "59348d5f-9549-4fca-a769-cf7edc45af34",
+    "hidden": false,
+    "locked": false,
+    "published": true,
+    "sortOrder": 1,
+    "card": {
+      "image": {
+        "source": "https://res.cloudinary.com/cupcake-29k/image/upload/t_card_image/v1744727654/Images/Circleofgrowthill_d1obkb.jpg"
+      }
+    },
+    "tags": [
+      "8da0534a-5da9-430a-bdf3-242ace6460fb",
+      "db34d82a-4c48-4ddd-9de5-f562d8aa1bc9"
+    ],
+    "exercises": [
+      "fff6f8da-f69c-458f-8905-acee04bd1a1d",
+      "a0600ebe-748d-481c-81af-dab25fa32b76",
+      "f4f8a536-5683-40a3-a139-5e3031687cec",
+      "b4307d0b-512d-46d6-a500-7fb372bfe057",
+      "2d096e25-3f0b-48da-8557-3db607b98ef8",
+      "c1c4da35-87af-4e10-a8d9-e6c58571f724",
+      "c7911238-ca9f-4499-9cae-63dfcd0c79c5",
+      "13dfd5b5-f0af-4783-9fe1-3ba7773bcb89"
+    ]
+  }
+}

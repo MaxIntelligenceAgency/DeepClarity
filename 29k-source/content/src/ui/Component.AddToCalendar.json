@@ -1,0 +1,31 @@
+{
+  "en": {
+    "title": "Aware - {{name}}",
+    "notes": "{{name}}\nWith {{host}}\n{{url}}",
+    "location": "Aware app"
+  },
+  "pt-PT": {
+    "title": "Aware - {{name}}",
+    "notes": "{{name}}\nCom {{host}}\n{{url}}",
+    "location": "Aware app"
+  },
+  "sv": {
+    "title": "Aware-session: {{name}}",
+    "notes": "{{name}}\nMed {{host}}\n{{url}}",
+    "location": "Aware-appen"
+  },
+  "ja": {},
+  "da": {},
+  "cs": {},
+  "nl": {},
+  "es": {
+    "location": "Aware app",
+    "notes": "{{name}}\nCon {{host}}\n{{url}}",
+    "title": "Aware - {{name}}"
+  },
+  "pt-BR": {
+    "location": "Aplicativo Aware",
+    "notes": "{{name}}\r\nCom {{host}}\r\n{{url}}",
+    "title": "Aware - {{name}}"
+  }
+}
