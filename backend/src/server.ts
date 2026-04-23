@@ -40,7 +40,7 @@ app.use(makeSkillsRouter());
 app.use(makeChatRouter(client));
 app.use(makeBaselineRouter(client));
 
-app.listen(PORT, () => {
+app.listen(PORT, "127.0.0.1", () => {
   console.log(`[server] listening on http://127.0.0.1:${PORT}`);
   console.log(`[server] routes: GET /health  GET /skills  POST /chat  POST /chat-baseline`);
 });

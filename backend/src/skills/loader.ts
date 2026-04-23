@@ -7,7 +7,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SKILLS_ROOT = path.resolve(__dirname, "../../../skills");
 
 export type SkillMeta = {
-  name: string;
+  id: string;          // on-disk directory name under ../skills/ — stable, router-facing
+  name: string;        // human-readable display name from SKILL.md frontmatter (may differ from id)
   description: string;
   license?: string;
   version?: string;
@@ -50,6 +51,7 @@ export async function listSkillMetas(): Promise<SkillMeta[]> {
     const raw = await fs.readFile(skillMd, "utf8");
     const { data } = matter(raw);
     const meta: SkillMeta = {
+      id: entry,
       name: String(data.name ?? entry),
       description: String(data.description ?? ""),
       license: data.license ? String(data.license) : undefined,

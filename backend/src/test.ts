@@ -50,7 +50,16 @@ function parseSseChunk(chunk: string): SseEvent | null {
   }
 }
 
-async function hit(path: string, message: string) {
+type HitResult = {
+  events: SseEvent[];
+  content: string;
+  totalMs: number;
+  ttft: number | null;
+  opusCalled: boolean;
+  crisisFallback: boolean;
+};
+
+async function hit(path: string, message: string): Promise<HitResult> {
   const t0 = performance.now();
   let firstContentAt: number | null = null;
   const res = await fetch(`${BASE}${path}`, {
@@ -62,7 +71,8 @@ async function hit(path: string, message: string) {
 
   const events: SseEvent[] = [];
   let content = "";
-  let gotOpusCall = false;
+  let opusCalled = false;
+  let crisisFallback = false;
 
   for await (const ev of parseSse(res)) {
     events.push(ev);
@@ -71,19 +81,25 @@ async function hit(path: string, message: string) {
       if (typeof d === "string") {
         content += d;
         if (firstContentAt === null) firstContentAt = performance.now();
-        gotOpusCall = true;
+        opusCalled = true;
       }
     } else if (ev.event === "crisis_fallback") {
+      crisisFallback = true;
       const t = (ev.data as { text?: unknown }).text;
       if (typeof t === "string") content = t;
     } else if (ev.event === "specialist_done") {
-      gotOpusCall = true;
+      opusCalled = true;
     }
   }
 
-  const totalMs = performance.now() - t0;
-  const ttft = firstContentAt !== null ? firstContentAt - t0 : null;
-  return { events, content, totalMs, ttft, gotOpusCall };
+  return {
+    events,
+    content,
+    totalMs: performance.now() - t0,
+    ttft: firstContentAt !== null ? firstContentAt - t0 : null,
+    opusCalled: opusCalled && !crisisFallback,
+    crisisFallback,
+  };
 }
 
 function pct(arr: number[], p: number): number | null {
@@ -94,36 +110,51 @@ function pct(arr: number[], p: number): number | null {
   return nums[idx] ?? null;
 }
 
+function indent(text: string, prefix: string): string {
+  return text.split("\n").map((l) => prefix + l).join("\n");
+}
+
 async function main() {
-  const ttfts: number[] = [];
-  console.log(`Hitting ${BASE}/chat with ${PROMPTS.length} prompts\n`);
+  const clarityTtfts: number[] = [];
+  const baselineTtfts: number[] = [];
+  console.log(`Hitting ${BASE} with ${PROMPTS.length} prompts × 2 endpoints\n`);
 
   for (const [label, prompt] of PROMPTS) {
     console.log("=".repeat(78));
     console.log(`[${label}]  ${prompt}`);
     console.log("=".repeat(78));
 
-    try {
-      const { events, content, totalMs, ttft, gotOpusCall } = await hit("/chat", prompt);
+    const [clarityRes, baselineRes] = await Promise.allSettled([
+      hit("/chat", prompt),
+      hit("/chat-baseline", prompt),
+    ]);
+
+    for (const [tag, tts, settled] of [
+      ["CLARITY ", clarityTtfts, clarityRes] as const,
+      ["BASELINE", baselineTtfts, baselineRes] as const,
+    ]) {
+      if (settled.status === "rejected") {
+        console.log(`\n-- ${tag} -- ERROR: ${settled.reason instanceof Error ? settled.reason.message : settled.reason}`);
+        continue;
+      }
+      const { events, content, totalMs, ttft, opusCalled, crisisFallback } = settled.value;
       const phases = events.map((e) => e.event).join(" → ");
-      const crisisFallback = events.some((e) => e.event === "crisis_fallback");
       console.log(
-        `events: ${phases}\n` +
-          `short_circuit=${crisisFallback}  opus_call=${gotOpusCall && !crisisFallback}  ` +
+        `\n-- ${tag} --\n  phases: ${phases}\n  short_circuit=${crisisFallback}  opus_call=${opusCalled}  ` +
           `ttft=${ttft !== null ? Math.round(ttft) + "ms" : "n/a"}  total=${Math.round(totalMs)}ms  ` +
-          `words=${content.trim().split(/\s+/).filter(Boolean).length}\n`,
+          `words=${content.trim().split(/\s+/).filter(Boolean).length}`,
       );
-      console.log("---\n" + content + "\n---");
-      if (ttft !== null) ttfts.push(ttft);
-    } catch (err) {
-      console.log(`ERROR: ${err instanceof Error ? err.message : err}`);
+      console.log(indent(content, "    "));
+      if (ttft !== null) tts.push(ttft);
     }
     console.log();
   }
 
-  const p50 = pct(ttfts, 50);
+  const p50c = pct(clarityTtfts, 50);
+  const p50b = pct(baselineTtfts, 50);
   console.log(
-    `summary: ${ttfts.length} runs with measured first-content-token; p50=${p50 !== null ? Math.round(p50) + "ms" : "n/a"}`,
+    `summary: clarity p50 TTFT = ${p50c !== null ? Math.round(p50c) + "ms" : "n/a"}  |  ` +
+      `baseline p50 TTFT = ${p50b !== null ? Math.round(p50b) + "ms" : "n/a"}`,
   );
 }
 

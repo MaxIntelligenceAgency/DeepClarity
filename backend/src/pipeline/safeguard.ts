@@ -1,7 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { SAFEGUARD_PROMPT } from "../prompts/safeguard.ts";
-import { fillTemplate } from "../prompts/template.ts";
 
 const MODEL = process.env.MODEL_SAFEGUARD ?? "claude-haiku-4-5-20251001";
 
@@ -34,9 +33,8 @@ export async function runSafeguard(
     const resp = await client.messages.create({
       model: MODEL,
       max_tokens: 200,
-      messages: [
-        { role: "user", content: fillTemplate(SAFEGUARD_PROMPT, { message }) },
-      ],
+      system: SAFEGUARD_PROMPT,
+      messages: [{ role: "user", content: message }],
     });
 
     const text = resp.content

@@ -1,8 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { ROUTER_PROMPT } from "../prompts/router.ts";
-import { fillTemplate } from "../prompts/template.ts";
-import type { SafeguardResult } from "./safeguard.ts";
 
 const MODEL = process.env.MODEL_ROUTER ?? "claude-haiku-4-5-20251001";
 
@@ -27,18 +25,13 @@ function extractJsonObject(text: string): string | null {
   return text.slice(start, end + 1);
 }
 
-export async function runRouter(
-  client: Anthropic,
-  message: string,
-  _safeguard: SafeguardResult | null,
-): Promise<RouterResult> {
+export async function runRouter(client: Anthropic, message: string): Promise<RouterResult> {
   try {
     const resp = await client.messages.create({
       model: MODEL,
       max_tokens: 300,
-      messages: [
-        { role: "user", content: fillTemplate(ROUTER_PROMPT, { message }) },
-      ],
+      system: ROUTER_PROMPT,
+      messages: [{ role: "user", content: message }],
     });
 
     const text = resp.content

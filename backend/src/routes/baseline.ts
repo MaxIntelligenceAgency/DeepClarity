@@ -2,6 +2,7 @@ import express, { type Router, type Request, type Response } from "express";
 import Anthropic from "@anthropic-ai/sdk";
 import { openSSE } from "../utils/sse.ts";
 import { appendRequestLog, newRequestId } from "../utils/logger.ts";
+import { createTokenBatcher } from "../utils/token_batcher.ts";
 
 const MODEL = process.env.MODEL_SPECIALIST ?? "claude-opus-4-7";
 const MAX_TOKENS = 1500;
@@ -33,24 +34,15 @@ export function makeBaselineRouter(client: Anthropic): Router {
 
       let firstTokenAt: number | null = null;
       let fullResponse = "";
-      let buffer = "";
-      let timer: NodeJS.Timeout | null = null;
-      const flush = (): void => {
-        if (buffer.length > 0) {
-          if (firstTokenAt === null) {
-            firstTokenAt = Date.now();
-            sse.send("first_token", { latency_ms: firstTokenAt - started });
-          }
-          sse.send("content", { delta: buffer });
-          fullResponse += buffer;
-          buffer = "";
+
+      const batcher = createTokenBatcher(BATCH_MS, (text) => {
+        if (firstTokenAt === null) {
+          firstTokenAt = Date.now();
+          sse.send("first_token", { latency_ms: firstTokenAt - started });
         }
-        timer = null;
-      };
-      const queueFlush = (): void => {
-        if (timer !== null) return;
-        timer = setTimeout(flush, BATCH_MS);
-      };
+        fullResponse += text;
+        sse.send("content", { delta: text });
+      });
 
       try {
         const stream = await client.messages.stream(
@@ -67,15 +59,13 @@ export function makeBaselineRouter(client: Anthropic): Router {
         for await (const event of stream) {
           if (controller.signal.aborted) break;
           if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
-            buffer += event.delta.text;
-            queueFlush();
+            batcher.push(event.delta.text);
           } else if (event.type === "message_delta" && event.delta.stop_reason) {
             stopReason = event.delta.stop_reason;
           }
         }
 
-        if (timer) clearTimeout(timer);
-        flush();
+        batcher.close();
         sse.send("specialist_done", { stopReason });
         sse.close();
 
@@ -86,10 +76,11 @@ export function makeBaselineRouter(client: Anthropic): Router {
           message,
           full_response: fullResponse,
           total_latency_ms: Date.now() - started,
-          first_token_latency_ms: firstTokenAt ? firstTokenAt - started : undefined,
+          first_token_latency_ms: firstTokenAt !== null ? firstTokenAt - started : undefined,
           status: "ok",
         });
       } catch (err) {
+        batcher.close();
         const errMsg = err instanceof Error ? err.message : String(err);
         console.error("[chat-baseline] error:", err);
         if (!sse.closed()) {

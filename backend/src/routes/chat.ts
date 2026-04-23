@@ -10,6 +10,12 @@ import { appendRequestLog, newRequestId } from "../utils/logger.ts";
 
 type ChatBody = { message?: unknown };
 
+async function timed<T>(fn: () => Promise<T>): Promise<{ result: T; ms: number }> {
+  const t0 = Date.now();
+  const result = await fn();
+  return { result, ms: Date.now() - t0 };
+}
+
 export function makeChatRouter(client: Anthropic): Router {
   const router = express.Router();
 
@@ -34,16 +40,14 @@ export function makeChatRouter(client: Anthropic): Router {
     let fullResponse = "";
 
     try {
-      const tSafeguardStart = Date.now();
-      const tRouterStart = tSafeguardStart;
-
-      const [safeguardResult, routerResult] = await Promise.all([
-        runSafeguard(client, message),
-        runRouter(client, message, null),
+      const [safeguardTimed, routerTimed] = await Promise.all([
+        timed(() => runSafeguard(client, message)),
+        timed(() => runRouter(client, message)),
       ]);
-
-      const safeguard_latency_ms = Date.now() - tSafeguardStart;
-      const router_latency_ms = Date.now() - tRouterStart;
+      const safeguardResult = safeguardTimed.result;
+      const routerResult = routerTimed.result;
+      const safeguard_latency_ms = safeguardTimed.ms;
+      const router_latency_ms = routerTimed.ms;
 
       sse.send("safeguard_result", { ...safeguardResult, latency_ms: safeguard_latency_ms });
 
@@ -117,7 +121,7 @@ export function makeChatRouter(client: Anthropic): Router {
         total_latency_ms: Date.now() - started,
         safeguard_latency_ms,
         router_latency_ms,
-        first_token_latency_ms: firstTokenAt ? firstTokenAt - started : undefined,
+        first_token_latency_ms: firstTokenAt !== null ? firstTokenAt - started : undefined,
         status: "ok",
       });
     } catch (err) {

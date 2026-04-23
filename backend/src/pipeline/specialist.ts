@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { CLARITY_SYSTEM_TEMPLATE } from "../prompts/clarity.ts";
 import { fillTemplate } from "../prompts/template.ts";
+import { createTokenBatcher } from "../utils/token_batcher.ts";
 
 const MODEL = process.env.MODEL_SPECIALIST ?? "claude-opus-4-7";
 const MAX_TOKENS = 1500;
@@ -33,23 +34,14 @@ export async function streamSpecialist(
 ): Promise<void> {
   const system = fillTemplate(CLARITY_SYSTEM_TEMPLATE, {
     skill_contents: formatSkillContents(opts.skillContents),
-    message: opts.message,
   });
 
-  // 16ms token batcher — coalesce deltas into single onToken calls for smoother SSE.
-  let buffer = "";
-  let timer: NodeJS.Timeout | null = null;
-  const flush = (): void => {
-    if (buffer.length > 0) {
-      cb.onToken(buffer);
-      buffer = "";
-    }
-    timer = null;
-  };
-  const queueFlush = (): void => {
-    if (timer !== null) return;
-    timer = setTimeout(flush, BATCH_MS);
-  };
+  // Hoisted out of the try block so the catch branch can report it
+  // even if the stream is aborted mid-flight.
+  let fullText = "";
+  let stopReason: string | null = null;
+
+  const batcher = createTokenBatcher(BATCH_MS, (text) => cb.onToken(text));
 
   try {
     const stream = await client.messages.stream(
@@ -62,29 +54,22 @@ export async function streamSpecialist(
       { signal: opts.signal },
     );
 
-    let fullText = "";
-    let stopReason: string | null = null;
-
     for await (const event of stream) {
       if (opts.signal?.aborted) break;
-
       if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
-        const delta = event.delta.text;
-        fullText += delta;
-        buffer += delta;
-        queueFlush();
+        fullText += event.delta.text;
+        batcher.push(event.delta.text);
       } else if (event.type === "message_delta" && event.delta.stop_reason) {
         stopReason = event.delta.stop_reason;
       }
     }
 
-    if (timer) clearTimeout(timer);
-    flush();
+    batcher.close();
     cb.onDone({ fullText, stopReason });
   } catch (err) {
-    if (timer) clearTimeout(timer);
+    batcher.close();
     if (opts.signal?.aborted) {
-      cb.onDone({ fullText: buffer, stopReason: "aborted" });
+      cb.onDone({ fullText, stopReason: "aborted" });
       return;
     }
     cb.onError(err instanceof Error ? err : new Error(String(err)));

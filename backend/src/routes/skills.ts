@@ -8,6 +8,7 @@ export function makeSkillsRouter(): Router {
       const metas = await listSkillMetas();
       res.json(
         metas.map((m) => ({
+          id: m.id,
           name: m.name,
           description: m.description,
           license: m.license ?? null,
