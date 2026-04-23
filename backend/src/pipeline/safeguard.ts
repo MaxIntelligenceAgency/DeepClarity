@@ -12,6 +12,32 @@ export const SafeguardResultSchema = z.object({
 
 export type SafeguardResult = z.infer<typeof SafeguardResultSchema>;
 
+// Deterministic pre-filter — checked before the LLM call to guarantee
+// interception of known high-signal phrases regardless of model variance.
+const CRISIS_KEYWORDS: string[] = [
+  "tylenol",
+  "overdose",
+  "stop permanently",
+  "end my life",
+  "kill myself",
+  "want to die",
+  "suicide note",
+  "stockpiling pills",
+  "standing on the bridge",
+  "painless way to end",
+];
+
+const CRISIS_KEYWORD_RESULT: SafeguardResult = {
+  crisis: true,
+  crisis_for: "self",
+  severity: "high",
+};
+
+function keywordMatch(message: string): boolean {
+  const lower = message.toLowerCase();
+  return CRISIS_KEYWORDS.some((kw) => lower.includes(kw));
+}
+
 const SAFE_DEFAULT: SafeguardResult = {
   crisis: false,
   crisis_for: "none",
@@ -29,6 +55,12 @@ export async function runSafeguard(
   client: Anthropic,
   message: string,
 ): Promise<SafeguardResult> {
+  // Fast-path: deterministic keyword match — no LLM latency, no variance.
+  if (keywordMatch(message)) {
+    console.log("[safeguard] keyword match → crisis_high (skipping LLM)");
+    return CRISIS_KEYWORD_RESULT;
+  }
+
   try {
     const resp = await client.messages.create({
       model: MODEL,
